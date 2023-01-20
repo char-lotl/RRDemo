@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/student_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:contentDescription="@string/student_button_desc"
+    android:paddingVertical="40dp"
+    android:textSize="22sp">
+
+
+</Button>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:ellipsize="end"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/item_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textAppearance="?attr/textAppearanceHeadline6"/>
+
+        <Button
+            android:id="@+id/remove_button"
+            android:layout_height="wrap_content"
+            android:layout_width="45sp"
+            android:text="@string/remove_button_label"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:textAppearance="?attr/textAppearanceHeadline5" />
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

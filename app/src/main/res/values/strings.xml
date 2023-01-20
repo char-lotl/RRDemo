@@ -1,0 +1,858 @@
+<resources>
+    <string name="app_name">RRDemo</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="zeroth_fragment_label">Classroom</string>
+    <string name="student_button_label">Student %s</string>
+    <string name="first_fragment_label">Book Cart</string>
+    <string name="remove_button_label">×</string>
+    <string name="finished_cart_label">Finished</string>
+    <string name="place_order_label">Place Order</string>
+    <string name="cart_number_label">Books in cart:</string>
+    <string name="cart_total_price_label">Cart total:</string>
+    <string name="isbn_not_found_message">ISBN not found: %s.</string>
+    <string name="cart_full_message">Cart is full.</string>
+    <string name="primary_cart_label">Primary Cart</string>
+    <string name="backup_cart_label">Backup Cart</string>
+
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="reset_demo">Reset Demo</string>
+    <string name="demo_complete">Congratulations! You have completed the demo.</string>
+
+    <string name="hello_first_fragment">Hello, World!</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="student_button_desc">Select student</string>
+
+    <string-array name="book_isbn">
+        <item>9780739453452</item> <!-- Four Frontiers -->
+        <item>9781481409155</item>
+        <item>9781534422292</item>
+        <item>9781534444508</item>
+        <item>9781534429093</item>
+        <item>9781534405417</item>
+        <item>9781534443372</item>
+        <item>9781534485532</item>
+        <item>9781442435391</item>
+        <item>9780689864230</item>
+        <item>9780689841033</item>
+        <item>9780689870323</item>
+        <item>9781534479791</item>
+        <item>9781534454262</item>
+        <item>9781534464452</item>
+        <item>9781416972068</item>
+        <item>9780689855290</item>
+        <item>9781534476585</item>
+        <item>9780689849848</item>
+        <item>9781442495036</item>
+        <item>9780689834387</item>
+        <item>9781534439344</item>
+        <item>9781481440509</item>
+        <item>9781534466371</item>
+        <item>9781534483026</item>
+        <item>9781534425088</item>
+        <item>9781481440479</item>
+        <item>9781442436428</item>
+        <item>9780689865138</item>
+        <item>9781416955375</item>
+        <item>9781416991731</item>
+        <item>9781534413795</item>
+        <item>9781481465403</item>
+        <item>9781534413856</item>
+        <item>9781534413825</item>
+        <item>9780689854415</item>
+        <item>9780689855399</item>
+        <item>9781534417755</item>
+        <item>9780689857539</item>
+        <item>9781534466289</item>
+        <item>9781534480612</item>
+        <item>9781416915416</item>
+        <item>9780689859441</item>
+        <item>9781481450737</item>
+        <item>9781416941453</item>
+        <item>9781442484979</item>
+        <item>9780689834400</item>
+        <item>9781534499409</item>
+        <item>9781534401761</item>
+        <item>9780689859106</item>
+        <item>9781534418349</item>
+        <item>9781534474123</item>
+        <item>9781534454149</item>
+        <item>9781534486485</item>
+        <item>9781416955351</item>
+        <item>9781416925514</item>
+        <item>9780689864254</item>
+        <item>9781534496323</item>
+        <item>9781416935230</item>
+        <item>9781416958031</item>
+        <item>9780689873676</item>
+        <item>9781416978893</item>
+        <item>9780689874543</item>
+        <item>9781416915379</item>
+        <item>9781534410510</item>
+        <item>9781534432413</item>
+        <item>9780689864278</item>
+        <item>9781665913867</item>
+        <item>9781416925538</item>
+        <item>9781665903134</item>
+        <item>9781442422933</item>
+        <item>9781534438910</item>
+        <item>9780689839665</item>
+        <item>9781481422376</item>
+        <item>9781534417731</item>
+        <item>9780689859427</item>
+        <item>9781481465434</item>
+        <item>9781442454668</item>
+        <item>9781534448605</item>
+        <item>9781665911696</item>
+        <item>9780689859113</item>
+        <item>9781534499584</item>
+        <item>9781534421912</item>
+        <item>9781481420426</item>
+        <item>9781416905097</item>
+        <item>9780689854804</item>
+        <item>9780689810053</item>
+        <item>9780689813863</item>
+        <item>9780689834448</item>
+        <item>9780689834479</item>
+        <item>9780689811753</item>
+        <item>9780689834455</item>
+        <item>9780689823176</item>
+        <item>9780689810190</item>
+        <item>9780689808869</item>
+        <item>9781442454699</item>
+        <item>9781481491754</item>
+        <item>9781481499729</item>
+        <item>9781481450799</item>
+        <item>9780689857508</item>
+        <item>9781481461641</item>
+        <item>9781442443808</item>
+        <item>9781665913478</item>
+        <item>9781534471016</item>
+        <item>9781534444683</item>
+        <item>9781534465220</item>
+        <item>9781534443983</item>
+        <item>9781442490710</item>
+        <item>9781442452794</item>
+        <item>9781442452763</item>
+        <item>9781534454231</item>
+        <item>9780689862397</item>
+        <item>9781481480956</item>
+        <item>9781665907873</item>
+        <item>9780689859588</item>
+        <item>9781534430556</item>
+        <item>9781534432444</item>
+        <item>9781534444447</item>
+        <item>9781442457188</item>
+        <item>9781416941484</item>
+        <item>9781416941439</item>
+        <item>9781534403406</item>
+        <item>9781442452459</item>
+        <item>9781442472815</item>
+        <item>9781442419766</item>
+        <item>9781442452411</item>
+        <item>9781534432147</item>
+        <item>9781534456464</item>
+        <item>9781534425118</item>
+        <item>9781416994114</item>
+        <item>9781534469563</item>
+        <item>9781534422414</item>
+        <item>9781481477246</item>
+        <item>9781481479172</item>
+        <item>9781481467704</item>
+        <item>9781481456876</item>
+        <item>9781416934943</item>
+        <item>9781416927747</item>
+        <item>9781534453913</item>
+        <item>9781416925354</item>
+        <item>9781416925378</item>
+        <item>9781534463257</item>
+        <item>9781416925330</item>
+        <item>9781534463233</item>
+        <item>9781442449954</item>
+        <item>9781534440487</item>
+        <item>9780689859601</item>
+        <item>9781481470438</item>
+        <item>9780689808760</item>
+        <item>9781534486423</item>
+        <item>9781534485310</item>
+        <item>9781416934776</item>
+        <item>9780689849558</item>
+        <item>9781534499492</item>
+        <item>9780689869440</item>
+        <item>9781665900645</item>
+        <item>9781481450850</item>
+        <item>9780689855351</item>
+        <item>9781665903790</item>
+        <item>9781534464209</item>
+        <item>9781534468276</item>
+        <item>9781442472747</item>
+        <item>9781665902557</item>
+        <item>9781665931021</item>
+        <item>9780689856358</item>
+        <item>9780689842146</item>
+        <item>9781481404655</item>
+        <item>9781416941385</item>
+        <item>9781416955399</item>
+        <item>9780689823480</item>
+        <item>9780689808340</item>
+        <item>9780689808357</item>
+        <item>9780689828799</item>
+        <item>9780689812965</item>
+        <item>9780689828805</item>
+        <item>9781481488921</item>
+        <item>9780689858765</item>
+        <item>9781534476639</item>
+        <item>9781534485891</item>
+        <item>9781416991700</item>
+        <item>9781534474604</item>
+        <item>9781665901673</item>
+        <item>9780689854392</item>
+        <item>9781481463362</item>
+        <item>9781481458665</item>
+        <item>9780689834394</item>
+        <item>9781534453074</item>
+        <item>9781442472693</item>
+        <item>9781416997849</item>
+        <item>9781534468108</item>
+        <item>9781534484245</item>
+        <item>9781481422406</item>
+        <item>9781481466097</item>
+        <item>9780689857515</item>
+        <item>9781481450881</item>
+        <item>9781534438880</item>
+        <item>9781534467712</item>
+        <item>9781534444416</item>
+        <item>9781534469532</item>
+        <item>9781416902386</item>
+        <item>9781534409750</item>
+        <item>9781534498877</item>
+        <item>9780689854378</item>
+        <item>9781416934936</item>
+        <item>9781416994107</item>
+        <item>9780689872075</item>
+        <item>9781442419742</item>
+        <item>9781481422437</item>
+        <item>9781481481342</item>
+        <item>9781481481373</item>
+        <item>9781442436459</item>
+        <item>9781481463393</item>
+        <item>9780689834417</item>
+        <item>9781534466258</item>
+        <item>9781534489066</item>
+        <item>9781534436428</item>
+        <item>9781534487055</item>
+        <item>9781481420556</item>
+        <item>9780689857089</item>
+        <item>9781534489097</item>
+        <item>9781481438476</item>
+        <item>9780689869143</item>
+        <item>9781534464292</item>
+        <item>9781481499699</item>
+        <item>9781416991717</item>
+        <item>9781442445765</item>
+        <item>9781481429153</item>
+        <item>9781481428613</item>
+        <item>9781416915393</item>
+        <item>9780689869501</item>
+        <item>9781442454637</item>
+        <item>9781665928342</item>
+        <item>9781534480131</item>
+        <item>9781442485006</item>
+        <item>9781534497399</item>
+        <item>9780689858741</item>
+        <item>9781442433250</item>
+        <item>9781442466937</item>
+        <item>9781416941422</item>
+        <item>9781416934790</item>
+        <item>9781481456265</item>
+        <item>9781481420525</item>
+        <item>9781481428583</item>
+        <item>9781481435758</item>
+        <item>9780689857492</item>
+        <item>9781481436052</item>
+        <item>9781416994121</item>
+        <item>9781534485921</item>
+        <item>9781416994138</item>
+        <item>9781416902362</item>
+        <item>9781416941477</item>
+        <item>9781416941460</item>
+        <item>9781416941415</item>
+        <item>9781481487979</item>
+        <item>9781416925491</item>
+        <item>9781481409179</item>
+        <item>9781416991724</item>
+        <item>9781534465527</item>
+        <item>9781534468245</item>
+        <item>9781534440760</item>
+        <item>9781442443778</item>
+        <item>9781665920759</item>
+        <item>9781534444478</item>
+        <item>9780689849565</item>
+        <item>9781534485563</item>
+        <item>9780689854439</item>
+        <item>9781481470469</item>
+        <item>9781416954040</item>
+        <item>9781534405011</item>
+        <item>9781481439350</item>
+        <item>9781416941392</item>
+    </string-array>
+    <string-array name="book_title">
+        <item>Four Frontiers</item>
+        <item>A House for Hermit Crab/Ready-to-Read Level 2</item>
+        <item>A Parrot in the Painting</item>
+        <item>A Place for Everything</item>
+        <item>A Puppy for Helen Keller</item>
+        <item>A Raccoon at the White House</item>
+        <item>A Sea Otter to the Rescue</item>
+        <item>A Snoopy Tale</item>
+        <item>A Team Stays Together!</item>
+        <item>A Tooth Story</item>
+        <item>Abe Lincoln and the Muddy Pig</item>
+        <item>Abigail Adams</item>
+        <item>Alligators and Crocodiles Can\'t Chew!</item>
+
+        <item>Angelina Ballerina and the Tea Party</item>
+        <item>Angelina Ballerina Tries Again</item>
+        <item>Annie and Snowball and the Wintry Freeze</item>
+        <item>Babe Ruth and the Ice Cream Mess</item>
+        <item>Back in the Ring</item>
+        <item>Ben Franklin and His First Kite</item>
+        <item>Bitsy Bee Goes to School</item>
+        <item>Brave Norman</item>
+        <item>Breakaway</item>
+        <item>Bugs at the Beach</item>
+        <item>Bunny Will Not Be Quiet!</item>
+        <item>Bunny Will Not Jump!</item>
+        <item>Bunny Will Not Smile!</item>
+        <item>Busy Bug Builds a Fort</item>
+        <item>Butterfly Garden</item>
+        <item>Clara Barton</item>
+        <item>Class Mom</item>
+        <item>Class Picture Day</item>
+        <item>Click, Clack, Boo!/Ready-to-Read Level 2</item>
+        <item>Click, Clack, Moo/Ready-to-Read Level 2</item>
+        <item>Click, Clack, Peep!/Ready-to-Read Level 2</item>
+        <item>Click, Clack, Surprise!/Ready-to-Read Level 2</item>
+        <item>Clouds</item>
+        <item>Counting Race</item>
+        <item>Crayola! The Secrets of the Cool Colors and Hot Hues</item>
+        <item>Creepy-Crawly Birthday</item>
+        <item>Crossing the Current</item>
+        <item>Cupcake Day!</item>
+        <item>Dad Goes to School</item>
+        <item>Davy Crockett</item>
+        <item>Day at the Fair</item>
+        <item>Dizzy Izzy</item>
+        <item>Do Not Open!</item>
+        <item>Dolores and the Big Fire</item>
+        <item>Donkey Hodie Helps an Elephant</item>
+        <item>Dooby Dooby Moo/Ready-to-Read Level 2</item>
+        <item>Doodle Dog</item>
+        <item>Drac\'s in Love!</item>
+        <item>Dragon Day!</item>
+        <item>Duck Stays in the Truck/Ready-to-Read Level 2</item>
+        <item>Earth</item>
+        <item>Earth Day</item>
+        <item>Earthquake!</item>
+        <item>Election Day</item>
+        <item>Elephants Don\'t Like Ants!</item>
+        <item>Eloise and the Big Parade</item>
+        <item>Eloise at the Ball Game</item>
+        <item>Eloise Has a Lesson</item>
+        <item>Eloise\'s Mother\'s Day Surprise</item>
+        <item>Eloise\'s Summer Vacation</item>
+        <item>Fall Leaf Project</item>
+        <item>Fearless Flyers, Dazzle Painters, and Code Talkers!</item>
+        <item>First Pitch</item>
+        <item>First-Grade Bunny</item>
+        <item>Flamingo Bingo</item>
+        <item>Flood!</item>
+        <item>Follow That Dog!</item>
+        <item>Friday the Scaredy Cat</item>
+        <item>Friendship on the High Seas</item>
+        <item>From Slave to Soldier</item>
+        <item>Gabe</item>
+        <item>Gekko Saves the City</item>
+        <item>George Washington\'s First Victory</item>
+        <item>Giggle, Giggle, Quack/Ready-to-Read Level 2</item>
+        <item>Go, Jade, Go!</item>
+        <item>Gobble Up, Snoopy!</item>
+        <item>Good Dog School</item>
+        <item>Granny Doodle Day</item>
+        <item>Hairy, Hairy Poodle</item>
+        <item>Hamster Holmes, a Bit Stumped</item>
+        <item>Hamster Holmes, On the Right Track</item>
+        <item>Happy Graduation!</item>
+        <item>Harriet Tubman and the Freedom Train</item>
+        <item>Henry and Mudge</item>
+        <item>Henry And Mudge And The Careful Cousin</item>
+        <item>Henry and Mudge and the Funny Lunch</item>
+        <item>Henry and Mudge and the Great Grandpas</item>
+        <item>Henry and Mudge and the Starry Night</item>
+        <item>Henry and Mudge and the Tall Tree House</item>
+        <item>Henry And Mudge in the Family Trees</item>
+        <item>Henry and Mudge in the Sparkle Days</item>
+        <item>Henry And Mudge Take the Big Test</item>
+        <item>Here Comes the Parade!</item>
+        <item>Hero School</item>
+        <item>Heroes Who Risked Everything for Freedom</item>
+        <item>Hooray for Reading!</item>
+        <item>Hot Fudge</item>
+        <item>How Airplanes Get from Here . . . to There!</item>
+        <item>I Love You, ZooBorns!</item>
+        <item>Icky, Sticky Slime!</item>
+        <item>If You Love Books, You Could Be...</item>
+        <item>If You Love Dolphins, You Could Be...</item>
+        <item>If You Love Robots, You Could Be...</item>
+        <item>If You Love Video Games, You Could Be...</item>
+        <item>Inch and Roly and the Sunny Day Scare</item>
+        <item>Inch and Roly and the Very Small Hiding Place</item>
+        <item>Inch and Roly Make a Wish</item>
+        <item>Interrupting Cow</item>
+        <item>Jackie Robinson and the Big Game</item>
+        <item>Jesse Owens</item>
+        <item>John Lewis</item>
+        <item>Johnny Appleseed</item>
+        <item>Journey to Pluto</item>
+        <item>Jump Shot</item>
+        <item>Just the Way I Am</item>
+        <item>Justin and the Bully</item>
+        <item>Kat\'s Maps</item>
+        <item>Kat\'s Mystery Gift</item>
+        <item>Katherine Johnson</item>
+        <item>Katy Duck and the Tip-Top Tap Shoes</item>
+        <item>Katy Duck Goes to Work</item>
+        <item>Katy Duck Makes a Friend</item>
+        <item>Katy Duck Meets the Babysitter</item>
+        <item>Kids Who Are Changing the World</item>
+        <item>Kids Who Are Saving the Planet</item>
+        <item>Kiwi Cannot Reach!</item>
+        <item>Let\'s Go Skating!</item>
+        <item>Let\'s Go to the Library!</item>
+        <item>Lin-Manuel Miranda</item>
+        <item>Linus Gets Glasses</item>
+        <item>Looking Up!</item>
+        <item>Lucy Knows Best</item>
+        <item>Make a Trade, Charlie Brown!</item>
+        <item>Martin Luther King Jr. Day</item>
+        <item>Martin\'s Dream</item>
+        <item>Match Point</item>
+        <item>Max &amp; Mo Go Apple Picking</item>
+        <item>Max &amp; Mo Make a Snowman</item>
+        <item>Max &amp; Mo\'s 100th Day of School!</item>
+        <item>Max &amp; Mo\'s First Day at School</item>
+        <item>Max &amp; Mo\'s Science Fair Surprise</item>
+        <item>Meet Teddy Rex!</item>
+        <item>Mission to the Moon!</item>
+        <item>Mister Bones</item>
+        <item>Misty Copeland</item>
+        <item>Mitchell Is Moving</item>
+        <item>Moon</item>
+        <item>More Ryan\'s World of Science</item>
+        <item>Mount Rushmore</item>
+        <item>New Pig in Town</item>
+        <item>New Tricks for the Old Dog</item>
+        <item>Niagara Falls</item>
+        <item>Nothing Fits a Dinosaur</item>
+        <item>Old Friends, New Friends</item>
+        <item>One Hundred Days (Plus One)</item>
+        <item>Oodles of Doodles!</item>
+        <item>Operation Library!</item>
+        <item>Pajama Day!</item>
+        <item>Pancakes, Pancakes!/Ready-to-Read Level 1</item>
+        <item>Parker Dresses Up</item>
+        <item>Parker Grows a Garden</item>
+        <item>Paul Revere and the Bell Ringers</item>
+        <item>Pearl Harbor</item>
+        <item>Pete Can Fly!</item>
+        <item>Pete\'s Party</item>
+        <item>Picking Apples</item>
+        <item>Pinky and Rex</item>
+        <item>Pinky and Rex and the Bully</item>
+        <item>Pinky And Rex and the Double-Dad Weekend</item>
+        <item>Pinky and Rex and the Mean Old Witch</item>
+        <item>Pinky and Rex and the New Neighbors</item>
+        <item>Pinky and Rex and the Spelling Bee</item>
+        <item>PJ Masks Save the Library!</item>
+        <item>Playground Problem</item>
+        <item>Polar Bear Fur Isn\'t White!</item>
+        <item>Practice Makes Perfect</item>
+        <item>Presidents\' Day</item>
+        <item>Puppy Party!</item>
+        <item>Race for First Place</item>
+        <item>Rain</item>
+        <item>Rainbow</item>
+        <item>Ralph and the Rocket Ship</item>
+        <item>Ringo Saves The Day!</item>
+        <item>Rocking the Tide</item>
+        <item>Rooster Is Off to See the World/Ready-to-Read Level 1</item>
+        <item>Ruby\'s New Home</item>
+        <item>Ryan\'s World of Science</item>
+        <item>Sabrina Sue Loves the Sea</item>
+        <item>Sadie</item>
+        <item>Say Cheese, Teddy Rex!</item>
+        <item>Scared Silly</item>
+        <item>School Day Adventure</item>
+        <item>School of Fish</item>
+        <item>Sharks Can\'t Smile!</item>
+        <item>Slap Shot</item>
+        <item>Sleepover Party!</item>
+        <item>Snack Attack</item>
+        <item>Snoopy and Woodstock</item>
+        <item>Snoopy on the Job</item>
+        <item>Snow</item>
+        <item>Snow Day</item>
+        <item>Soccer Day</item>
+        <item>Sojourner Truth</item>
+        <item>Starring Katy Duck</item>
+        <item>Stella</item>
+        <item>Strega Nona and Her Tomatoes</item>
+        <item>Strega Nona and the Twins</item>
+        <item>Summer Treasure</item>
+        <item>Sun</item>
+        <item>Tara and Tiree, Fearless Friends</item>
+        <item>Testing the Waters</item>
+        <item>The Big Mix-Up!</item>
+        <item>The Cat Who Ruled the Town</item>
+        <item>The Chicken House</item>
+        <item>The Deep Dish on Pizza!</item>
+        <item>The Dog That Dug for Dinosaurs</item>
+        <item>The Duck Is Stuck!</item>
+        <item>The Explosive Story of Fireworks!</item>
+        <item>The First Day of School</item>
+        <item>The Flying Factory!</item>
+        <item>The Founding Fathers Were Spies!</item>
+        <item>The Garden Project</item>
+        <item>The Greedy Python/Ready-to-Read Level 1</item>
+        <item>The High Score and Lowdown on Video Games!</item>
+        <item>The Innings and Outs of Baseball</item>
+        <item>The Luck of the Irish</item>
+        <item>The Mighty Mississippi</item>
+        <item>The Missing Cupcake Mystery</item>
+        <item>The Missing Notebook!</item>
+        <item>The Mystery of the Dragon Eggs</item>
+        <item>The One-Eyed People Eater</item>
+        <item>The Pizza Problem!</item>
+        <item>The Pumpkin Patch</item>
+        <item>The Really Rotten Princess</item>
+        <item>The Scariest Day Ever . . . So Far</item>
+        <item>The Spooky Tire</item>
+        <item>The Statue of Liberty</item>
+        <item>The Sugary Secrets Behind Candy</item>
+        <item>The Sweet Story of Hot Chocolate!</item>
+        <item>The Thrills and Chills of Amusement Parks</item>
+        <item>The Tiny Seed/Ready-to-Read Level 2</item>
+        <item>The Vampire Bunny</item>
+        <item>Time for School, Charlie Brown</item>
+        <item>Time for T-ball</item>
+        <item>Toucan with Two Cans</item>
+        <item>Touchdown!</item>
+        <item>Trucks</item>
+        <item>Trucks Line Up</item>
+        <item>Trucksgiving</item>
+        <item>Uh-Oh, Max</item>
+        <item>Violet Fairy Gets Her Wings</item>
+        <item>Volcano!</item>
+        <item>Walter the Baker/Ready-to-Read Level 2</item>
+        <item>Wash Your Hands!</item>
+        <item>Water, Water Everywhere</item>
+        <item>We Are Thankful</item>
+        <item>Welcome to Ryan\'s World!</item>
+        <item>Welcome to the World, Zooborns!</item>
+        <item>What\'s That Smell?</item>
+        <item>When I Grow Up</item>
+        <item>When Pigs Fly</item>
+        <item>When Snoopy Met Woodstock</item>
+        <item>Wind</item>
+        <item>Women Who Launched the Computer Age</item>
+        <item>Yellowstone</item>
+        <item>You Got a Rock, Charlie Brown!</item>
+        <item>Zach and Lucy and the Museum of Natural Wonders</item>
+        <item>Zoom! Boom! Bully</item> -->
+    </string-array>
+    <string-array name="book_price">
+        <item>1499</item> <!-- Four Frontiers -->
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>399</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>399</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>399</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>399</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>1799</item>
+        <item>499</item>
+        <item>499</item>
+        <item>399</item>
+        <item>499</item>
+        <item>499</item>
+        <item>399</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>1799</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>399</item>
+        <item>499</item>
+        <item>399</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>399</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>399</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>399</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>399</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>399</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>399</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+    </string-array>
+
+    <string-array name="student_id">
+        <item>100001</item>
+        <item>100004</item>
+        <item>100023</item>
+        <item>100486</item>
+        <item>100487</item>
+        <item>105982</item>
+    </string-array>
+
+</resources>
