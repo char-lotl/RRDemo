@@ -30,7 +30,7 @@ public class ZerothFragment extends Fragment {
     private FragmentZerothBinding binding;
 
     private RRViewModel rrvm;
-    private LiveData<ArrayList<UIStudent>> allStudents;
+    private ArrayList<UIStudent> allStudents;
 
     private RecyclerView recyclerView;
     private StudentAdapter studentAdapter;
@@ -73,9 +73,9 @@ public class ZerothFragment extends Fragment {
     }
 
     public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.StudentViewHolder> {
-        private final LiveData<ArrayList<UIStudent>> studentList;
+        private final ArrayList<UIStudent> studentList;
 
-        public StudentAdapter(LiveData<ArrayList<UIStudent>> sl) {
+        public StudentAdapter(ArrayList<UIStudent> sl) {
             super();
             studentList = sl;
         }
@@ -90,7 +90,7 @@ public class ZerothFragment extends Fragment {
 
         @Override
         public void onBindViewHolder(@NonNull StudentViewHolder holder, int position) {
-            UIStudent uiStudent = studentList.getValue().get(position);
+            UIStudent uiStudent = studentList.get(position);
             Student student = uiStudent.student;
             holder.cartButton.setText(String.format(res.getString(R.string.student_button_label), student.studentID));
             CartStatusCode cartStatus = rrvm.getCartStatus(student.studentID);
@@ -110,7 +110,7 @@ public class ZerothFragment extends Fragment {
 
         @Override
         public int getItemCount() {
-            return studentList.getValue().size();
+            return studentList.size();
         }
 
         class StudentViewHolder extends RecyclerView.ViewHolder {

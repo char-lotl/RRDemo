@@ -24,14 +24,14 @@ public class RRViewModel extends ViewModel {
     private String currentStudent;
     private HashMap<String, ArrayList<UIBook>> studentCarts;
     private MutableLiveData<ArrayList<UIBook>> shoppingCart;
-    private MutableLiveData<ArrayList<UIStudent>> classroomStudents;
+    private ArrayList<UIStudent> classroomStudents;
 
     public RRViewModel() {
         super();
         studentCarts = new HashMap<>();
         currentScreen = FragmentLabel.CLASSROOM;
         shoppingCart = new MutableLiveData<>(new ArrayList<>());
-        classroomStudents = new MutableLiveData<>(new ArrayList<>());
+        classroomStudents = new ArrayList<>();
     }
 
     public LiveData<ArrayList<UIBook>> getCart() {
@@ -74,12 +74,12 @@ public class RRViewModel extends ViewModel {
         shoppingCart.setValue(cart);
     }
 
-    public LiveData<ArrayList<UIStudent>> getClassroom(Context c) {
-        if (classroomStudents.getValue().size() == 0) {
-            classroomStudents.setValue(StudentDatasource.getAllStudents(c)
+    public ArrayList<UIStudent> getClassroom(Context c) {
+        if (classroomStudents.size() == 0) {
+            classroomStudents = StudentDatasource.getAllStudents(c)
                     .values().stream().map(UIStudent::new)
                     .sorted(Comparator.comparing(s -> s.student.studentID))
-                    .collect(toCollection(ArrayList::new)));
+                    .collect(toCollection(ArrayList::new));
         }
 
         return classroomStudents;
