@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:paddingBottom="90dp"
         android:text="@string/backup_cart_label"
-        android:background="@color/backupCart"
+        android:background="@color/bedford_teal"
         app:layout_constraintTop_toBottomOf="@id/primary_cart_explanation"
         android:textAppearance="?attr/textAppearanceHeadline3" />
 
