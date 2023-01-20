@@ -11,8 +11,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="yellow">#FFB0B030</color>
     <color name="green">#FF689C04</color>
-    <color name="screenBackground">#FF60B0E0</color>
+    <color name="screenBackground">#FFEDFAFF</color>
     <color name="backupCart">#FF9080D0</color>
     <color name="bedford_orange">#FFF6972C</color>
     <color name="bedford_purple">#FF01004D</color>
+    <color name="bedford_teal">#FF3CC0CA</color>
 </resources>

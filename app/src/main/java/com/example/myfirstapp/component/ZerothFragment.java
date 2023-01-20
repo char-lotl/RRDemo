@@ -98,7 +98,7 @@ public class ZerothFragment extends Fragment {
             if (cartStatus == CartStatusCode.PARTIAL) {
                 tintColor = R.color.bedford_orange;
             } else if (cartStatus == CartStatusCode.FULL) {
-                tintColor = R.color.green;
+                tintColor = R.color.bedford_teal;
             }
             holder.cartButton.setBackgroundTintList(ContextCompat.getColorStateList(holder.cartButton.getContext(), tintColor));
             holder.cartButton.setOnClickListener(view -> {
