@@ -18,7 +18,10 @@ public class BookDatasource {
         String[] book_isbns = res.getStringArray(R.array.book_isbn);
         String[] book_titles = res.getStringArray(R.array.book_title);
         String[] book_prices = res.getStringArray(R.array.book_price);
-        allBooks.put(book_isbns[0], new Book(book_titles[0], book_prices[0]));
+        int num_titles = book_isbns.length;
+        for (int i = 0; i < num_titles; i++) {
+            allBooks.put(book_isbns[i], new Book(book_titles[i], book_prices[i]));
+        }
     }
 
     public static HashMap<String, Book> getAllBooks(Context c) {
