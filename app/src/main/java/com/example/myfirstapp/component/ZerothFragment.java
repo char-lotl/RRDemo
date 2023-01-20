@@ -94,9 +94,9 @@ public class ZerothFragment extends Fragment {
             Student student = uiStudent.student;
             holder.cartButton.setText(String.format(res.getString(R.string.student_button_label), student.studentID));
             CartStatusCode cartStatus = rrvm.getCartStatus(student.studentID);
-            int tintColor = R.color.blue_light;
+            int tintColor = R.color.bedford_purple;
             if (cartStatus == CartStatusCode.PARTIAL) {
-                tintColor = R.color.yellow;
+                tintColor = R.color.bedford_orange;
             } else if (cartStatus == CartStatusCode.FULL) {
                 tintColor = R.color.green;
             }
