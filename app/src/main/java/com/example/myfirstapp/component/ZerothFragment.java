@@ -66,9 +66,11 @@ public class ZerothFragment extends Fragment {
 
         totalView.setText(Money.decimalize(rrvm.getClassTotal()));
 
-        binding.orderButton.setOnClickListener(view1 -> NavHostFragment
-                .findNavController(ZerothFragment.this)
-                .navigate(R.id.action_ZerothFragment_to_SecondFragment));
+        binding.orderButton.setOnClickListener(view1 -> {
+            rrvm.navigatedToFragment(FragmentLabel.DEMO_COMPLETE);
+            NavHostFragment.findNavController(ZerothFragment.this)
+                    .navigate(R.id.action_ZerothFragment_to_SecondFragment);
+        });
 
     }
 

@@ -23,10 +23,15 @@
     <string name="previous">Previous</string>
     <string name="reset_demo">Reset Demo</string>
     <string name="demo_complete">Congratulations! You have completed the demo.</string>
+    <string name="pitch_text">We\'d love to reach out to you about the books you selected.</string>
 
     <string name="hello_first_fragment">Hello, World!</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="student_button_desc">Select student</string>
+
+    <string name="name_entry_hint">Name (Optional)</string>
+    <string name="email_entry_hint">Email (Optional)</string>
+    <string name="phone_input_hint">Phone (Optional)</string>
 
     <string-array name="book_isbn">
         <item>9780739453452</item> <!-- Four Frontiers -->

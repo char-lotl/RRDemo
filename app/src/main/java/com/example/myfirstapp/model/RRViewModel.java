@@ -134,4 +134,8 @@ public class RRViewModel extends ViewModel {
                 .reduce(0L, Long::sum);
     }
 
+    public FragmentLabel getFragment() {
+        return currentScreen;
+    }
+
 }

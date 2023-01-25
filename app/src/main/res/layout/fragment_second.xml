@@ -19,15 +19,30 @@
         android:src="@drawable/accent_gray_bedford_logo" />
 
     <TextView
-        android:id="@+id/textview_second"
+        android:id="@+id/textview_congrats"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/demo_complete"
         android:textAppearance="?attr/textAppearanceHeadline6"
-        app:layout_constraintBottom_toTopOf="@id/button_second"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textview_pitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pitch_text"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
 
     <Button
         android:id="@+id/button_second"
@@ -35,8 +50,92 @@
         android:layout_height="wrap_content"
         android:text="@string/reset_demo"
         android:backgroundTint="@color/bedford_purple"
+        app:layout_constraintVertical_bias="0.85"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textview_second" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:hint="@string/phone_input_hint"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:autofillHints="phone" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/text_form_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" >
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.1">
+
+            <EditText
+                android:id="@+id/editTextPersonName"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="@string/name_entry_hint"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:autofillHints="personName" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.9">
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:hint="@string/email_entry_hint"
+                android:autofillHints="emailAddress" />
+        </com.google.android.material.card.MaterialCardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

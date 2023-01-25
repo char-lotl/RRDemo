@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding binding;
     private RRViewModel rrvm;
     private Resources res;
+    private String TAG = "MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -91,17 +92,21 @@ public class MainActivity extends AppCompatActivity {
     private String barcode = "";
     @Override
     public boolean dispatchKeyEvent(KeyEvent e) {
-        if(e.getAction()==KeyEvent.ACTION_DOWN
-                && e.getKeyCode() != KeyEvent.KEYCODE_ENTER){ //Not Adding ENTER_KEY to barcode String
-            char pressedKey = (char) e.getUnicodeChar();
-            barcode += pressedKey;
+        if (rrvm.getFragment() != FragmentLabel.DEMO_COMPLETE) {
+            if (e.getAction() == KeyEvent.ACTION_DOWN
+                    && e.getKeyCode() != KeyEvent.KEYCODE_ENTER) { //Not Adding ENTER_KEY to barcode String
+                char pressedKey = (char) e.getUnicodeChar();
+                barcode += pressedKey;
+            }
+            if (e.getAction() == KeyEvent.ACTION_DOWN
+                    && e.getKeyCode() == KeyEvent.KEYCODE_ENTER) {
+                handleUIEvent(rrvm.receivedBarcode(barcode, this), barcode);
+                barcode = "";
+            }
+            return false;
+        } else {
+            return super.dispatchKeyEvent(e);
         }
-        if (e.getAction()==KeyEvent.ACTION_DOWN
-                && e.getKeyCode() == KeyEvent.KEYCODE_ENTER) {
-            handleUIEvent(rrvm.receivedBarcode(barcode, this), barcode);
-            barcode="";
-        }
-        return false;
     }
 
     private void handleUIEvent(UIEventCode code) {
