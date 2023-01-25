@@ -2,6 +2,8 @@
     <string name="app_name">RRDemo</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
+    <string name="toolbar_logo_description">Bedford Falls logo in white</string>
+    <string name="bg_logo_description">Bedford Falls logo in light gray</string>
     <string name="zeroth_fragment_label">Classroom</string>
     <string name="student_button_label">Student %s</string>
     <string name="first_fragment_label">Book Cart</string>
@@ -10,6 +12,7 @@
     <string name="place_order_label">Place Order</string>
     <string name="cart_number_label">Books in cart:</string>
     <string name="cart_total_price_label">Cart total:</string>
+    <string name="class_cart_total_price_label">Class cart total:</string>
     <string name="isbn_not_found_message">ISBN not found: %s.</string>
     <string name="cart_full_message">Cart is full.</string>
     <string name="primary_cart_label">Primary Cart</string>

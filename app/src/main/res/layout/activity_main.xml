@@ -16,7 +16,19 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="@color/bedford_purple"
-            app:popupTheme="@style/Theme.MyFirstApp.PopupOverlay" />
+            app:popupTheme="@style/Theme.MyFirstApp.PopupOverlay">
+
+            <!--
+            <ImageView
+                android:contentDescription="@string/toolbar_logo_description"
+                android:id="@+id/tv_header_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/white_bedford_logo" />
+            -->
+
+        </androidx.appcompat.widget.Toolbar>
 
     </com.google.android.material.appbar.AppBarLayout>
 
