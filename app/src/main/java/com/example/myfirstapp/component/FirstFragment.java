@@ -123,13 +123,7 @@ public class FirstFragment extends Fragment {
 
     private void updateSummary() {
         numInCartView.setText(String.valueOf(cartData.getValue().size()));
-        priceSumView.setText(Money.decimalize(sum_prices(cartData.getValue())));
-    }
-
-    private Long sum_prices(ArrayList<UIBook> bl) {
-        long s = 0;
-        for (UIBook b : bl) s += b.book.price;
-        return s;
+        priceSumView.setText(Money.decimalize(UIBook.sum_prices(cartData.getValue())));
     }
 
     public class BookAdapter extends RecyclerView.Adapter<BookAdapter.BookViewHolder> {

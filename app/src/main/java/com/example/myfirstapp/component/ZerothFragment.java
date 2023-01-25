@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
@@ -23,6 +24,7 @@ import com.example.myfirstapp.databinding.FragmentZerothBinding;
 import com.example.myfirstapp.model.RRViewModel;
 import com.example.myfirstapp.model.Student;
 import com.example.myfirstapp.model.UIStudent;
+import com.example.myfirstapp.text.Money;
 
 import java.util.ArrayList;
 
@@ -33,6 +35,7 @@ public class ZerothFragment extends Fragment {
     private ArrayList<UIStudent> allStudents;
 
     private RecyclerView recyclerView;
+    private TextView totalView;
     private StudentAdapter studentAdapter;
     private Resources res;
 
@@ -55,10 +58,13 @@ public class ZerothFragment extends Fragment {
 
         allStudents = rrvm.getClassroom(requireActivity());
         recyclerView = view.findViewById(R.id.recycler_view_classroom);
+        totalView = view.findViewById(R.id.textview_classroom_cart_total);
         studentAdapter = new StudentAdapter(allStudents);
 
         recyclerView.setAdapter(studentAdapter);
         res = view.getResources();
+
+        totalView.setText(Money.decimalize(rrvm.getClassTotal()));
 
         binding.orderButton.setOnClickListener(view1 -> NavHostFragment
                 .findNavController(ZerothFragment.this)
@@ -123,48 +129,5 @@ public class ZerothFragment extends Fragment {
         }
 
     }
-
-    /*
-
-    public class BookAdapter extends RecyclerView.Adapter<BookAdapter.ItemViewHolder> {
-
-        @Override
-        public void onBindViewHolder(@NonNull ItemViewHolder holder, int position) {
-            UIBook uiBook = bookList.getValue().get(position);
-            Consumer<Integer> removeAction = uiBook.removeAction;
-            Book book = bookList.getValue().get(position).book;
-            holder.titleView.setText(book.title);
-            String price_string = Money.decimalize(book.price);
-            holder.priceView.setText(price_string);
-            holder.removeButton.setOnClickListener(view -> {
-                int index = holder.getAdapterPosition();
-                Log.i("ButtonMessages", "Removed item " + index + ".");
-                FirstFragment.this.listAction = ListAction.REMOVE_BOOK;
-                FirstFragment.this.actionIndex = index;
-                removeAction.accept(index);
-            });
-        }
-
-        @Override
-        public int getItemCount() {
-            return bookList.getValue().size();
-        }
-
-        class ItemViewHolder extends RecyclerView.ViewHolder {
-            //private View view;
-            public TextView titleView;
-            public TextView priceView;
-            public Button removeButton;
-            ItemViewHolder(View view) {
-                super(view);
-                titleView = view.findViewById(R.id.item_title);
-                priceView = view.findViewById(R.id.item_price);
-                removeButton = view.findViewById(R.id.remove_button);
-            }
-        }
-
-    }
-
-     */
 
 }

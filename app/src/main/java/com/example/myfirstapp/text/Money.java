@@ -5,6 +5,6 @@ public class Money {
         return s.replaceFirst("(\\d{2})$", ".$1");
     }
     public static String decimalize(Long l) {
-        return decimalize(l.toString());
+        return decimalize(String.format("%03d", l));
     }
 }

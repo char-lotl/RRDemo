@@ -129,4 +129,9 @@ public class RRViewModel extends ViewModel {
         studentCarts = new HashMap<>();
     }
 
+    public Long getClassTotal() {
+        return studentCarts.values().stream().map(UIBook::sum_prices)
+                .reduce(0L, Long::sum);
+    }
+
 }
