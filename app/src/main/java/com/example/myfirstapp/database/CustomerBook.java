@@ -12,14 +12,19 @@ public class CustomerBook {
     @ColumnInfo(name = "isbn")
     public String isbn;
 
-    public CustomerBook(Customer c, String i) {
+    @ColumnInfo(name = "student_id")
+    public String student_id;
+
+    public CustomerBook(Customer c, String i, String s) {
         uid = c.uid;
         isbn = i;
+        student_id = s;
     }
 
-    public CustomerBook(int uid, String isbn) {
+    public CustomerBook(int uid, String isbn, String student_id) {
         this.uid = uid;
         this.isbn = isbn;
+        this.student_id = student_id;
     }
 
 }

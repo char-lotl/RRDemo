@@ -74,7 +74,7 @@ public class RRViewModel extends ViewModel {
 
     private void addToCart(Book b) {
         ArrayList<UIBook> cart = shoppingCart.getValue();
-        cart.add(new UIBook(b, this::removeFromCart));
+        cart.add(new UIBook(b, currentStudent, this::removeFromCart));
         shoppingCart.setValue(cart);
     }
 
@@ -153,8 +153,17 @@ public class RRViewModel extends ViewModel {
         for (ArrayList<UIBook> bl : studentCarts.values()) {
             allBooks.addAll(bl);
         }
+
         List<String> allISBNs = allBooks.stream().map(UIBook::get_isbn).collect(Collectors.toList());
-        List<CustomerBook> allCBs = allISBNs.stream().map(i -> new CustomerBook(cu, i)).collect(Collectors.toList());
+        List<String> allStudentIDs = allBooks.stream().map(UIBook::get_student).collect(Collectors.toList());
+
+        List<CustomerBook> allCBs = new ArrayList<>();
+
+        for (int i = 0; i < allISBNs.size(); i++) {
+            allCBs.add(new CustomerBook(cu, allISBNs.get(i), allStudentIDs.get(i)));
+        }
+
+        //List<CustomerBook> allCBs = allISBNs.stream().map(i -> new CustomerBook(cu, i)).collect(Collectors.toList());
 
         db = AppDatabase.getInstance(co);
         CustomerDao cd = db.customerDao();

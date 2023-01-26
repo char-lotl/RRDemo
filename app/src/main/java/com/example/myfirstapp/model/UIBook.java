@@ -5,9 +5,11 @@ import java.util.function.Consumer;
 
 public class UIBook {
     public final Book book;
+    public final String student;
     public final Consumer<Integer> removeAction;
-    public UIBook(Book b, Consumer<Integer> c) {
+    public UIBook(Book b, String s, Consumer<Integer> c) {
         book = b;
+        student = s;
         removeAction = c;
     }
 
@@ -20,4 +22,6 @@ public class UIBook {
     public String get_isbn() {
         return book.isbn;
     }
+
+    public String get_student() { return student; }
 }

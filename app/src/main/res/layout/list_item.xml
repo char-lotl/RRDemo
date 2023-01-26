@@ -11,7 +11,7 @@
 
         <TextView
             android:id="@+id/item_title"
-            android:layout_width="200sp"
+            android:layout_width="240sp"
             android:layout_height="wrap_content"
             android:padding="16dp"
             android:textAppearance="?attr/textAppearanceHeadline6"
@@ -19,15 +19,16 @@
             android:maxLines="1" />
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="50dp"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:layout_marginHorizontal="20dp">
+            android:layout_marginHorizontal="10dp">
 
             <TextView
                 android:id="@+id/lexile_label"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:text="@string/lexile_label"
                 android:maxLines="1" />
 
@@ -42,15 +43,16 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="50dp"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:layout_marginHorizontal="20dp">
+            android:layout_marginHorizontal="10dp">
 
             <TextView
                 android:id="@+id/level_label"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:text="@string/level_label"
                 android:maxLines="1" />
 
@@ -65,15 +67,16 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="50dp"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:layout_marginHorizontal="20dp">
+            android:layout_marginHorizontal="10dp">
 
             <TextView
                 android:id="@+id/dra_label"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:text="@string/dra_label"
                 android:maxLines="1" />
 
@@ -89,9 +92,10 @@
 
         <TextView
             android:id="@+id/item_price"
-            android:layout_width="wrap_content"
+            android:textAlignment="viewEnd"
+            android:layout_width="78dp"
             android:layout_height="wrap_content"
-            android:padding="16dp"
+            android:paddingRight="16dp"
             android:textAppearance="?attr/textAppearanceHeadline6"/>
 
         <Button
