@@ -3,20 +3,29 @@ package com.example.myfirstapp.model;
 import static java.util.stream.Collectors.toCollection;
 
 import android.content.Context;
+import android.util.Log;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
+import androidx.room.Room;
 
 import com.example.myfirstapp.communication.CartStatusCode;
 import com.example.myfirstapp.communication.FragmentLabel;
 import com.example.myfirstapp.communication.UIEventCode;
 import com.example.myfirstapp.data.BookDatasource;
 import com.example.myfirstapp.data.StudentDatasource;
+import com.example.myfirstapp.database.AppDatabase;
+import com.example.myfirstapp.database.Customer;
+import com.example.myfirstapp.database.CustomerBook;
+import com.example.myfirstapp.database.CustomerBookDao;
+import com.example.myfirstapp.database.CustomerDao;
 
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class RRViewModel extends ViewModel {
 
@@ -25,6 +34,7 @@ public class RRViewModel extends ViewModel {
     private HashMap<String, ArrayList<UIBook>> studentCarts;
     private MutableLiveData<ArrayList<UIBook>> shoppingCart;
     private ArrayList<UIStudent> classroomStudents;
+    private AppDatabase db;
 
     public RRViewModel() {
         super();
@@ -136,6 +146,23 @@ public class RRViewModel extends ViewModel {
 
     public FragmentLabel getFragment() {
         return currentScreen;
+    }
+
+    public void storeCustomerSession(Customer cu, Context co) {
+        ArrayList<UIBook> allBooks = new ArrayList<UIBook>();
+        for (ArrayList<UIBook> bl : studentCarts.values()) {
+            allBooks.addAll(bl);
+        }
+        List<String> allISBNs = allBooks.stream().map(UIBook::get_isbn).collect(Collectors.toList());
+        List<CustomerBook> allCBs = allISBNs.stream().map(i -> new CustomerBook(cu, i)).collect(Collectors.toList());
+
+        db = AppDatabase.getInstance(co);
+        CustomerDao cd = db.customerDao();
+        CustomerBookDao cbd = db.customerBookDao();
+
+        cd.insertCustomer(cu).subscribe();
+        cbd.insertList(allCBs).subscribe();
+
     }
 
 }

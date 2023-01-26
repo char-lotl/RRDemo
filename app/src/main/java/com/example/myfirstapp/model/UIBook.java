@@ -16,4 +16,8 @@ public class UIBook {
         for (UIBook b : bl) s += b.book.price;
         return s;
     }
+
+    public String get_isbn() {
+        return book.isbn;
+    }
 }

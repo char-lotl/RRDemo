@@ -10,6 +10,7 @@
     <string name="remove_button_label">×</string>
     <string name="finished_cart_label">Finished</string>
     <string name="place_order_label">Place Order</string>
+    <string name="lexile_label">Lexile</string>
     <string name="cart_number_label">Books in cart:</string>
     <string name="cart_total_price_label">Cart total:</string>
     <string name="class_cart_total_price_label">Class cart total:</string>
@@ -305,9 +306,608 @@
         <item>9781534405011</item>
         <item>9781481439350</item>
         <item>9781416941392</item>
+        <item>9780593434642</item>
+        <item>9781984849328</item>
+        <item>9780593431436</item>
+        <item>9780593431795</item>
+        <item>9780593431818</item>
+        <item>9780593433218</item>
+        <item>9780593569146</item>
+        <item>9780593570531</item>
+        <item>9780593570968</item>
+        <item>9780593483046</item>
+        <item>9780593488454</item>
+        <item>9780736443586</item>
+        <item>9780736443630</item>
+        <item>9780593564905</item>
+        <item>9780593564936</item>
+        <item>9780736443302</item>
+        <item>9786736443326</item>
+        <item>9780593564875</item>
+        <item>9780593564844</item>
+        <item>9780593563717</item>
+        <item>9780593383995</item>
+        <item>9780593432709</item>
+        <item>9780593432624</item>
+        <item>9780593432648</item>
+        <item>9780593432686</item>
+        <item>9780593432525</item>
+        <item>9780593432563</item>
+        <item>9780593432549</item>
+        <item>9780593432341</item>
+        <item>9780593428320</item>
+        <item>9780593428313</item>
+        <item>9780593432440</item>
+        <item>9780593302071</item>
+        <item>9780593304440</item>
+        <item>9780593373729</item>
+        <item>9780593182079</item>
+        <item>9780593432280</item>
+        <item>9780593479148</item>
+        <item>9780736443050</item>
+        <item>9780593302606</item>
+        <item>9780593481806</item>
+        <item>9780593484319</item>
+        <item>9780593302101</item>
+        <item>9780525647454</item>
+        <item>9781984851147</item>
+        <item>9780593373163</item>
+        <item>9780736442961</item>
+        <item>9780593483282</item>
+        <item>9780593430521</item>
+        <item>9780593434154</item>
+        <item>9780593434208</item>
+        <item>9780593434178</item>
+        <item>9780593431221</item>
+        <item>9780593310458</item>
+        <item>9780593374986</item>
+        <item>9780736431194</item>
+        <item>9780736426879</item>
+        <item>9780736424103</item>
+        <item>9780736422659</item>
+        <item>9780736421317</item>
+        <item>9780375824944</item>
+        <item>9780448478128</item>
+        <item>9780448479897</item>
+        <item>9780448467191</item>
+        <item>9780448467214</item>
+        <item>9780448461809</item>
+        <item>9780593432426</item>
+        <item>9780448464718</item>
+        <item>9780448462547</item>
+        <item>9780448463766</item>
+        <item>9780448496467</item>
+        <item>9780448462646</item>
+        <item>9780448463056</item>
+        <item>9780448461571</item>
+        <item>9780448461588</item>
+        <item>9780448457635</item>
+        <item>9780448422992</item>
+        <item>9780141306704</item>
+        <item>9780593094693</item>
+        <item>9781524784843</item>
+        <item>9780515159653</item>
+        <item>9780593095997</item>
+        <item>9780451534392</item>
+        <item>9780399541650</item>
+        <item>9780448489742</item>
+        <item>9780448479958</item>
+        <item>9780448431178</item>
+        <item>9780448428475</item>
+        <item>9780448419664</item>
+        <item>9780448418391</item>
+        <item>9780140383492</item>
+        <item>9780140380835</item>
+        <item>9780140376258</item>
+        <item>9780448402239</item>
+        <item>9780448482217</item>
+        <item>9780448487007</item>
+        <item>9780448479293</item>
+        <item>9780140368529</item>
+        <item>9780140365375</item>
+        <item>9780140365368</item>
+        <item>9780448488325</item>
+        <item>9780448479934</item>
+        <item>9780312367541</item>
+        <item>9780312369811</item>
+        <item>9780312547998</item>
+        <item>9780312581404</item>
+        <item>9780312608873</item>
+        <item>9780312611217</item>
+        <item>9780312624835</item>
+        <item>9780312624859</item>
+        <item>9780312672898</item>
+        <item>9780312681975</item>
+        <item>9780374437183</item>
+        <item>9780753453070</item>
+        <item>9780753459188</item>
+        <item>9780753465202</item>
+        <item>9780753465219</item>
+        <item>9780753465226</item>
+        <item>9780753465240</item>
+        <item>9780753465295</item>
+        <item>9780753465301</item>
+        <item>9780753465318</item>
+        <item>9780753466971</item>
+        <item>9780753467039</item>
+        <item>9780753467077</item>
+        <item>9780753467497</item>
+        <item>9780753467510</item>
+        <item>9780753467534</item>
+        <item>9780753467558</item>
+        <item>9780753467572</item>
+        <item>9780753467596</item>
+        <item>9780753468012</item>
+        <item>9780753468449</item>
+        <item>9780753468807</item>
+        <item>9780753468982</item>
+        <item>9780753469002</item>
+        <item>9780753469064</item>
+        <item>9780753469279</item>
+        <item>9780753469354</item>
+        <item>9780753470879</item>
+        <item>9780753470893</item>
+        <item>9780753470954</item>
+        <item>9780753471210</item>
+        <item>9780753471234</item>
+        <item>9780753471357</item>
+        <item>9780753471371</item>
+        <item>9780753471432</item>
+        <item>9780753471456</item>
+        <item>9780753471470</item>
+        <item>9780753471999</item>
+        <item>9780753472019</item>
+        <item>9780753472088</item>
+        <item>9780753472200</item>
+        <item>9780753472224</item>
+        <item>9780753472248</item>
+        <item>9780753472262</item>
+        <item>9780753472293</item>
+        <item>9780753472309</item>
+        <item>9780753472460</item>
+        <item>9780753472606</item>
+        <item>9780753472644</item>
+        <item>9780753472651</item>
+        <item>9780753472675</item>
+        <item>9780753472866</item>
+        <item>9780753472897</item>
+        <item>9780753473016</item>
+        <item>9780753473320</item>
+        <item>9780753473351</item>
+        <item>9780753473368</item>
+        <item>9780753473405</item>
+        <item>9780753473429</item>
+        <item>9780753473825</item>
+        <item>9780753474235</item>
+        <item>9780753474259</item>
+        <item>9780753474341</item>
+        <item>9780753474389</item>
+        <item>9780753474549</item>
+        <item>9780753474983</item>
+        <item>9780753475348</item>
+        <item>9780753475447</item>
+        <item>9780753475676</item>
+        <item>9780753476154</item>
+        <item>9780753476161</item>
+        <item>9780753476178</item>
+        <item>9780753476185</item>
+        <item>9780753476505</item>
+        <item>9780753476628</item>
+        <item>9780753476635</item>
+        <item>9780753476697</item>
+        <item>9780753476710</item>
+        <item>9780753477151</item>
+        <item>9780753477168</item>
+        <item>9780753477182</item>
+        <item>9780753477199</item>
+        <item>9780805011685</item>
+        <item>9780805039412</item>
+        <item>9780805054798</item>
+        <item>9780805068313</item>
+        <item>9780805071634</item>
+        <item>9781250010384</item>
+        <item>9781250027740</item>
+        <item>9781250034052</item>
+        <item>9781250034076</item>
+        <item>9781250044488</item>
+        <item>9781250055699</item>
+        <item>9781250056788</item>
+        <item>9781250061683</item>
+        <item>9781250061690</item>
+        <item>9781250062666</item>
+        <item>9781250068149</item>
+        <item>9781250070654</item>
+        <item>9781250072498</item>
+        <item>9781250073273</item>
+        <item>9781250073976</item>
+        <item>9781250079480</item>
+        <item>9781250079657</item>
+        <item>9781250079763</item>
+        <item>9781250091666</item>
+        <item>9781250110176</item>
+        <item>9781250110930</item>
+        <item>9781250110954</item>
+        <item>9781250115379</item>
+        <item>9781250137548</item>
+        <item>9781250137579</item>
+        <item>9781250143686</item>
+        <item>9781250144058</item>
+        <item>9781250150561</item>
+        <item>9781250150592</item>
+        <item>9781250150622</item>
+        <item>9781250171108</item>
+        <item>9781250183392</item>
+        <item>9781250207616</item>
+        <item>9781250207647</item>
+        <item>9781250207654</item>
+        <item>9781626722316</item>
+        <item>9781681193267</item>
+        <item>9781681193304</item>
+        <item>9780439301831</item>
+        <item>9780545017619</item>
+        <item>9780545108553</item>
+        <item>9780545134743</item>
+        <item>9780545175722</item>
+        <item>9780545484381</item>
+        <item>9780545572712</item>
+        <item>9780545636315</item>
+        <item>9780545664790</item>
+        <item>9780545823357</item>
+        <item>9781338193053</item>
+        <item>9781338194456</item>
+        <item>9781338210279</item>
+        <item>9781338253771</item>
+        <item>9781338253795</item>
+        <item>9781338327755</item>
+        <item>9781338327854</item>
+        <item>9781338681420</item>
+        <item>9781338797916</item>
+        <item>9781338805062</item>
+        <item>9781338805093</item>
+        <item>9781338805123</item>
+        <item>9781338814125</item>
+        <item>9781338814156</item>
+        <item>9781338814187</item>
+        <item>9780316016308</item>
+        <item>9780316023801</item>
+        <item>9780316024532</item>
+        <item>9780316102964</item>
+        <item>9780316115476</item>
+        <item>9780316133623</item>
+        <item>9780316133630</item>
+        <item>9780316139243</item>
+        <item>9780316139854</item>
+        <item>9780316140539</item>
+        <item>9780316184038</item>
+        <item>9780316184045</item>
+        <item>9780316188968</item>
+        <item>9780316203814</item>
+        <item>9780316218498</item>
+        <item>9780316219594</item>
+        <item>9780316229319</item>
+        <item>9780316243209</item>
+        <item>9780316243223</item>
+        <item>9780316246026</item>
+        <item>9780316306843</item>
+        <item>9780316400619</item>
+        <item>9780316400633</item>
+        <item>9780316471800</item>
+        <item>9780316484879</item>
+        <item>9780316507677</item>
+        <item>9780316509589</item>
+        <item>9780316525589</item>
+        <item>9781426302855</item>
+        <item>9781426302862</item>
+        <item>9781426303920</item>
+        <item>9781426303944</item>
+        <item>9781426304262</item>
+        <item>9781426304286</item>
+        <item>9781426305269</item>
+        <item>9781426306082</item>
+        <item>9781426306105</item>
+        <item>9781426307102</item>
+        <item>9781426307393</item>
+        <item>9781426307553</item>
+        <item>9781426307577</item>
+        <item>9781426307751</item>
+        <item>9781426308499</item>
+        <item>9781426308536</item>
+        <item>9781426308550</item>
+        <item>9781426309113</item>
+        <item>9781426309229</item>
+        <item>9781426310386</item>
+        <item>9781426310409</item>
+        <item>9781426310478</item>
+        <item>9781426310591</item>
+        <item>9781426313462</item>
+        <item>9781426313486</item>
+        <item>9781426313509</item>
+        <item>9781426314667</item>
+        <item>9781426314704</item>
+        <item>9781426314742</item>
+        <item>9781426314766</item>
+        <item>9781426315107</item>
+        <item>9781426315121</item>
+        <item>9781426317439</item>
+        <item>9781426317477</item>
+        <item>9781426317590</item>
+        <item>9781426317637</item>
+        <item>9780060080921</item>
+        <item>9780060087807</item>
+        <item>9780060089672</item>
+        <item>9780060094584</item>
+        <item>9780060094614</item>
+        <item>9780060097912</item>
+        <item>9780060507008</item>
+        <item>9780060507022</item>
+        <item>9780060507046</item>
+        <item>9780060511050</item>
+        <item>9780060511111</item>
+        <item>9780060511142</item>
+        <item>9780060511159</item>
+        <item>9780060518899</item>
+        <item>9780060527648</item>
+        <item>9780060527785</item>
+        <item>9780060534363</item>
+        <item>9780060535636</item>
+        <item>9780060535667</item>
+        <item>9780060537227</item>
+        <item>9780060544614</item>
+        <item>9780060546618</item>
+        <item>9780060546649</item>
+        <item>9780060546670</item>
+        <item>9780060560331</item>
+        <item>9780060577339</item>
+        <item>9780060583385</item>
+        <item>9780060583514</item>
+        <item>9780060583576</item>
+        <item>9780060741662</item>
+        <item>9780060741693</item>
+        <item>9780060741723</item>
+        <item>9780060760908</item>
+        <item>9780060835439</item>
+        <item>9780060835453</item>
+        <item>9780060835477</item>
+        <item>9780060835491</item>
+        <item>9780060835514</item>
+        <item>9780060835538</item>
+        <item>9780060835576</item>
+        <item>9780060835613</item>
+        <item>9780060837976</item>
+        <item>9780060838003</item>
+        <item>9780060838065</item>
+        <item>9780060843519</item>
+        <item>9780060843601</item>
+        <item>9780060843632</item>
+        <item>9780060854751</item>
+        <item>9780060854775</item>
+        <item>9780061146312</item>
+        <item>9780061146336</item>
+        <item>9780061177491</item>
+        <item>9780061236075</item>
+        <item>9780061236136</item>
+        <item>9780061252136</item>
+        <item>9780061363115</item>
+        <item>9780061430053</item>
+        <item>9780061435218</item>
+        <item>9780061478154</item>
+        <item>9780061478178</item>
+        <item>9780061478192</item>
+        <item>9780061478215</item>
+        <item>9780061703720</item>
+        <item>9780061704123</item>
+        <item>9780061765247</item>
+        <item>9780061864377</item>
+        <item>9780061935022</item>
+        <item>9780061935060</item>
+        <item>9780061969096</item>
+        <item>9780061969164</item>
+        <item>9780061978579</item>
+        <item>9780061992278</item>
+        <item>9780062048455</item>
+        <item>9780062082053</item>
+        <item>9780062086730</item>
+        <item>9780062087041</item>
+        <item>9780062087072</item>
+        <item>9780062090140</item>
+        <item>9780062090195</item>
+        <item>9780062094995</item>
+        <item>9780062095022</item>
+        <item>9780062110756</item>
+        <item>9780062215895</item>
+        <item>9780062219145</item>
+        <item>9780062222312</item>
+        <item>9780062236937</item>
+        <item>9780062237002</item>
+        <item>9780062268143</item>
+        <item>9780062279163</item>
+        <item>9780062281586</item>
+        <item>9780062281616</item>
+        <item>9780062294210</item>
+        <item>9780062300065</item>
+        <item>9780062303790</item>
+        <item>9780062303851</item>
+        <item>9780062335579</item>
+        <item>9780062341822</item>
+        <item>9780062341853</item>
+        <item>9780062342072</item>
+        <item>9780062344694</item>
+        <item>9780062350138</item>
+        <item>9780062350336</item>
+        <item>9780062350367</item>
+        <item>9780062350381</item>
+        <item>9780062353115</item>
+        <item>9780062353214</item>
+        <item>9780062357021</item>
+        <item>9780062363657</item>
+        <item>9780062363688</item>
+        <item>9780062364142</item>
+        <item>9780062364180</item>
+        <item>9780062364210</item>
+        <item>9780062364241</item>
+        <item>9780062366009</item>
+        <item>9780062366603</item>
+        <item>9780062366634</item>
+        <item>9780062367426</item>
+        <item>9780062367464</item>
+        <item>9780062367495</item>
+        <item>9780062377951</item>
+        <item>9780062377982</item>
+        <item>9780062381880</item>
+        <item>9780062392480</item>
+        <item>9780062398673</item>
+        <item>9780062398710</item>
+        <item>9780062404282</item>
+        <item>9780062404312</item>
+        <item>9780062410528</item>
+        <item>9780062410566</item>
+        <item>9780062410597</item>
+        <item>9780062415264</item>
+        <item>9780062429452</item>
+        <item>9780062430700</item>
+        <item>9780062430731</item>
+        <item>9780062430762</item>
+        <item>9780062431448</item>
+        <item>9780062431462</item>
+        <item>9780062431486</item>
+        <item>9780062432131</item>
+        <item>9780062432193</item>
+        <item>9780062432223</item>
+        <item>9780062432254</item>
+        <item>9780062432285</item>
+        <item>9780062432315</item>
+        <item>9780062432346</item>
+        <item>9780062432377</item>
+        <item>9780062432407</item>
+        <item>9780062432438</item>
+        <item>9780062432612</item>
+        <item>9780062432636</item>
+        <item>9780062432667</item>
+        <item>9780062432759</item>
+        <item>9780062432780</item>
+        <item>9780062432841</item>
+        <item>9780062432872</item>
+        <item>9780062432902</item>
+        <item>9780062436146</item>
+        <item>9780062436177</item>
+        <item>9780062436207</item>
+        <item>9780062443427</item>
+        <item>9780062445865</item>
+        <item>9780062566881</item>
+        <item>9780062566911</item>
+        <item>9780062570710</item>
+        <item>9780062642080</item>
+        <item>9780062643377</item>
+        <item>9780062675187</item>
+        <item>9780062675217</item>
+        <item>9780062675248</item>
+        <item>9780062675293</item>
+        <item>9780062675378</item>
+        <item>9780062682826</item>
+        <item>9780062686213</item>
+        <item>9780062686404</item>
+        <item>9780062686442</item>
+        <item>9780062691019</item>
+        <item>9780062691040</item>
+        <item>9780062692788</item>
+        <item>9780062692801</item>
+        <item>9780062697059</item>
+        <item>9780062697080</item>
+        <item>9780062697110</item>
+        <item>9780062697158</item>
+        <item>9780062699978</item>
+        <item>9780062747747</item>
+        <item>9780062747778</item>
+        <item>9780062796387</item>
+        <item>9780062798459</item>
+        <item>9780062839237</item>
+        <item>9780062840387</item>
+        <item>9780062843852</item>
+        <item>9780062845092</item>
+        <item>9780062845122</item>
+        <item>9780062852960</item>
+        <item>9780062852984</item>
+        <item>9780062860354</item>
+        <item>9780062868268</item>
+        <item>9780062868329</item>
+        <item>9780062868381</item>
+        <item>9780062868459</item>
+        <item>9780062868503</item>
+        <item>9780062909978</item>
+        <item>9780062910004</item>
+        <item>9780062910035</item>
+        <item>9780062910066</item>
+        <item>9780062912589</item>
+        <item>9780062934550</item>
+        <item>9780062935243</item>
+        <item>9780062935540</item>
+        <item>9780062946089</item>
+        <item>9780062946119</item>
+        <item>9780062946751</item>
+        <item>9780062950369</item>
+        <item>9780062951076</item>
+        <item>9780062951090</item>
+        <item>9780062951137</item>
+        <item>9780062951168</item>
+        <item>9780062954558</item>
+        <item>9780062954589</item>
+        <item>9780062961969</item>
+        <item>9780062961990</item>
+        <item>9780062963369</item>
+        <item>9780062974044</item>
+        <item>9780062974075</item>
+        <item>9780062974136</item>
+        <item>9780062974174</item>
+        <item>9780062974211</item>
+        <item>9780062974266</item>
+        <item>9780062974310</item>
+        <item>9780062974365</item>
+        <item>9780062977045</item>
+        <item>9780062977076</item>
+        <item>9780062983039</item>
+        <item>9780062983060</item>
+        <item>9780062983145</item>
+        <item>9780062989543</item>
+        <item>9780062989574</item>
+        <item>9780062989628</item>
+        <item>9780062991201</item>
+        <item>9780063003842</item>
+        <item>9780063017078</item>
+        <item>9780063017092</item>
+        <item>9780063024434</item>
+        <item>9780063024496</item>
+        <item>9780063024526</item>
+        <item>9780063037441</item>
+        <item>9780063037519</item>
+        <item>9780063037557</item>
+        <item>9780063037571</item>
+        <item>9780063056176</item>
+        <item>9780063056206</item>
+        <item>9780063076662</item>
+        <item>9780063077980</item>
+        <item>9780063083622</item>
+        <item>9780063083653</item>
+        <item>9780063158856</item>
+        <item>9780063158894</item>
+        <item>9780063158979</item>
+        <item>9780063162129</item>
+        <item>9780063204393</item>
+        <item>9780063204423</item>
+        <item>9780063208056</item>
+        <item>9780063208087</item>
+        <item>9780063223103</item>
+        <item>9780063256446</item>
+        <item>9780064400589</item>
+        <item>9780064401326</item>
+        <item>9780064401753</item>
+        <item>9780064407052</item>
+        <item>9780064430098</item>
+        <item>9780064431620</item>
+        <item>9780064433228</item>
     </string-array>
     <string-array name="book_title">
         <item>Four Frontiers</item>
+
         <item>A House for Hermit Crab/Ready-to-Read Level 2</item>
         <item>A Parrot in the Painting</item>
         <item>A Place for Everything</item>
@@ -320,7 +920,6 @@
         <item>Abe Lincoln and the Muddy Pig</item>
         <item>Abigail Adams</item>
         <item>Alligators and Crocodiles Can\'t Chew!</item>
-
         <item>Angelina Ballerina and the Tea Party</item>
         <item>Angelina Ballerina Tries Again</item>
         <item>Annie and Snowball and the Wintry Freeze</item>
@@ -578,7 +1177,605 @@
         <item>Yellowstone</item>
         <item>You Got a Rock, Charlie Brown!</item>
         <item>Zach and Lucy and the Museum of Natural Wonders</item>
-        <item>Zoom! Boom! Bully</item> -->
+        <item>Zoom! Boom! Bully</item>
+        <item>Grumpy Monkey The Egg-Sitter</item>
+        <item>We Are Heroes! (DC Super Friends)</item>
+        <item>Sweet Dance Party! (DreamWorks Trolls)</item>
+        <item>One Fancy Day (Kamp Koral: SpongeBob\'s Uner Years)</item>
+        <item>Space Mission! (Rugrats)</item>
+        <item>I Am Born To Be Awesome!</item>
+        <item>Cooking With The Birthday Bird</item>
+        <item>Bam and the Batwheels! (DC Batman: Batwheels)</item>
+        <item>Level Up! (LEGO Ninjago)</item>
+        <item>The Sky\'s The Limit! (Minecraft)</item>
+        <item>Love Stinks!</item>
+        <item>Tiana\'s Garden Grows (Disney Princess)</item>
+        <item>Bug Trouble! (Disney/Pixar Lightyear)</item>
+        <item>I Am Smart</item>
+        <item>I Am Helpful</item>
+        <item>Meet the Clades (Disney Strange World)</item>
+        <item>Adventure Awaits! (Disney Strange World)</item>
+        <item>This Makes Me Angry </item>
+        <item>This Makes Me Silly</item>
+        <item>Ready? Set. Birthday! (Raymond and Roxy)</item>
+        <item>Here Comes the Rain!</item>
+        <item>Jackie Robinson: He Led the Way</item>
+        <item>A Pig, a Fox, and Stinky Socks</item>
+        <item>A Pig, a Fox, and a Box</item>
+        <item>Fox on the Job</item>
+        <item>Corduroy Makes a Cake</item>
+        <item>Kick It, Mo!</item>
+        <item>Pass the Ball, Mo!</item>
+        <item>Don\'t Throw it to Mo!</item>
+        <item>Grumpy Monkey Get Your Grumps Out</item>
+        <item>Grumpy Monkey Ready, Set, Bananas!</item>
+        <item>Slow. Slow Sloths</item>
+        <item>Big Shark, Little Shark, and the Spooky Cave</item>
+        <item>Meet Mario! (Nintendo)</item>
+        <item>PAW Patrol: The Movie: Back on Track! (PAW Patrol)</item>
+        <item>Driving School (Elbow Grease)</item>
+        <item>The Very Busy Spider</item>
+        <item>How to Do a Science Experiment </item>
+        <item>Stitch-or-Treat! (Disney Stitch)</item>
+        <item>School Day!</item>
+        <item>I Am Strong</item>
+        <item>I Am Thankful</item>
+        <item>Big Shark, Little Shark, and the Missing Teeth</item>
+        <item>Black Adam Strikes! (DC Justice League)</item>
+        <item>Wild Sharks! (Wild Kratts)</item>
+        <item>Martin and Chris Kratt: The Wild Life</item>
+        <item>Mission: Teamwork (Disney/Pixar Lightyear)</item>
+        <item>Kaya Rides to the Rescue (American Girl)</item>
+        <item>I Love My Teacher!</item>
+        <item>I Am Brave</item>
+        <item>This Makes Me Happy</item>
+        <item>I Am Kind</item>
+        <item>Rainy Day! (Blue\'s Clues &amp; You)</item>
+        <item>The Batman (The Batman Movie)</item>
+        <item>Go, Go, Planes!</item>
+        <item>Big Snowman, Little Snowman (Disney Frozen)</item>
+        <item>Kingdom of Color (Disney Tangled)</item>
+        <item>Old, New, Red, Blue! (Disney/Pixar Cars)</item>
+        <item>The Incredible Dash (Disney/Pixar The Incredibles)</item>
+        <item>Best Dad In The Sea (Disney/Pixar Finding Nemo)</item>
+        <item>The Cat in the Hat: Cooking With the Cat (Dr. Seuss)</item>
+        <item>Clara and Clem Under the Sea</item>
+        <item>Muddy, Mud, Bud</item>
+        <item>In the Forest</item>
+        <item>Clara and Clem in Outer Space</item>
+        <item>A New Friend </item>
+        <item>Ice Cream Soup</item>
+        <item>At the Beach</item>
+        <item>Play with Blue</item>
+        <item>On a Farm</item>
+        <item>Guppy Up!</item>
+        <item>Clara and Clem Take a Ride</item>
+        <item>Cat Days</item>
+        <item>We Are Twins</item>
+        <item>Max Has a Fish</item>
+        <item>Bake, Mice, Bake!</item>
+        <item>Monkey See, Monkey Do</item>
+        <item>Turtle and Snake Go Camping</item>
+        <item>Who Ate My Book?</item>
+        <item>Peanut Butter\'s First Day of School</item>
+        <item>Please, No More Nuts!</item>
+        <item>We Need More Nuts!</item>
+        <item>Snail-Snaily-Snails</item>
+        <item>Ham-Ham-Hamsters</item>
+        <item>Hedge-Hedgey-Hedgehogs</item>
+        <item>Pup-Pup-Puppies</item>
+        <item>Turtles</item>
+        <item>Water</item>
+        <item>Butterflies</item>
+        <item>Frogs</item>
+        <item>The Cow in the House</item>
+        <item>The Princess and the Pea</item>
+        <item>The Teeny-Tiny Woman</item>
+        <item>Spider\'s Lunch</item>
+        <item>Pig-Piggy-Pigs</item>
+        <item>Miss Bindergarten and the Very Wet Day</item>
+        <item>Frances Dances</item>
+        <item>Nicky Upstairs and Down</item>
+        <item>Harry Takes a Bath</item>
+        <item>Jason\'s Bus Ride</item>
+        <item>Vroom, Zoom, Bud</item>
+        <item>Max Finds an Egg</item>
+        <item>A Wrinkle in Time</item>
+        <item>Tuck Everlasting</item>
+        <item>Dog and Bear: Two Friends, Three Stories</item>
+        <item>Do Unto Otters</item>
+        <item>Great Estimations</item>
+        <item>Molly the Pony</item>
+        <item>Carl and the Puppies</item>
+        <item>Carl and the Baby Duck</item>
+        <item>My Life as a Book</item>
+        <item>Carl and the Kitten</item>
+        <item>Jack Adrift: Fourth Grade Without a Clue</item>
+        <item>Flashing Fire Engines</item>
+        <item>Tremendous Tractors</item>
+        <item>I Wonder Why Stars Twinkle</item>
+        <item>I Wonder Why the Sea Is Salty</item>
+        <item>I Wonder Why the Wind Blows</item>
+        <item>I Wonder Why Spiders Spin Webs</item>
+        <item>I Wonder Why the Sun Rises</item>
+        <item>I Wonder Why Penguins Can\'t Fly</item>
+        <item>I Wonder Why Snakes Shed Their Skin</item>
+        <item>I Wonder Why Leaves Change Color</item>
+        <item>I Wonder Why Planes Have Wings</item>
+        <item>I Wonder Why Caterpillars Eat So Much</item>
+        <item>Kingfisher Readers L1: Butterflies</item>
+        <item>Kingfisher Readers L1: Colorful Coral Reefs</item>
+        <item>Kingfisher Readers L1: Trains</item>
+        <item>Kingfisher Readers L1: Baby Animals</item>
+        <item>Kingfisher Readers L2: Your Body</item>
+        <item>Kingfisher Readers L2: What Animals Eat</item>
+        <item>I Wonder Why Zippers Have Teeth</item>
+        <item>Kingfisher Readers L1: Snakes Alive!</item>
+        <item>Kingfisher Readers L3: Record Breakers-The Biggest</item>
+        <item>Kingfisher Readers L1: Seasons</item>
+        <item>Kingfisher Readers L1: Busy as a Bee</item>
+        <item>Kingfisher Readers L4: Sharks</item>
+        <item>Kingfisher Readers L2: Trucks</item>
+        <item>I Wonder Why Volcanoes Blow Their Tops</item>
+        <item>Kingfisher Readers L1: Tadpoles and Frogs</item>
+        <item>Kingfisher Readers L2: Fur and Feathers</item>
+        <item>Kingfisher Readers L5: Record Breakers, The Most Dangerous</item>
+        <item>Kingfisher Readers L2 What We Eat</item>
+        <item>Kingfisher Readers L3: Firefighters</item>
+        <item>Kingfisher Readers L1: Animal Colors</item>
+        <item>Kingfisher Readers L1: Tyrannosaurus</item>
+        <item>Kingfisher Readers L1: Time</item>
+        <item>Kingfisher Readers L2: In the Rainforest</item>
+        <item>Kingfisher Readers L2: Sun, Moon, and Stars</item>
+        <item>Kingfisher Readers L1: Brilliant Birds</item>
+        <item>Kingfisher Readers L2: African Savanna</item>
+        <item>Super Submarines</item>
+        <item>Kingfisher Readers L1: Ladybugs</item>
+        <item>Kingfisher Readers L2: Combine Harvesters</item>
+        <item>Kingfisher Readers L1: Seals</item>
+        <item>Kingfisher Readers L2: Chimpanzees</item>
+        <item>Forest Adventure</item>
+        <item>African Adventure</item>
+        <item>Fast Facts: Extreme Hunters</item>
+        <item>It\'s All About . . . Beastly Bugs</item>
+        <item>It\'s all about... Rushing Rivers</item>
+        <item>It\'s All About... Scary Spiders</item>
+        <item>It\'s all about... Super Solar System</item>
+        <item>It\'s all about... Fantastic Fliers</item>
+        <item>It\'s all about... Spectacular Ships</item>
+        <item>Fast Facts: Incredible Human Body</item>
+        <item>Discover Science: Birds</item>
+        <item>Discover Science: Mountains</item>
+        <item>Discover Science: Weather</item>
+        <item>Kingfisher Readers L1: Bears</item>
+        <item>Kingfisher Readers L2: Birds of Prey</item>
+        <item>Life Cycles: Rainforest</item>
+        <item>Life Cycles: Forest</item>
+        <item>Life Cycles: River</item>
+        <item>Discover Science: Animal Disguises</item>
+        <item>Discover Science: Oceans and Seas</item>
+        <item>Wow! Look What Dinosaurs Could Do!</item>
+        <item>My Best Book of Trains</item>
+        <item>Discover Science: Reptiles</item>
+        <item>Wow! Look What Robots Can Do!</item>
+        <item>Wow! Look What Birds Can Do</item>
+        <item>It\'s all about... Snappy Sharks</item>
+        <item>It\'s all about... Dangerous Dinosaurs</item>
+        <item>It\'s all about... Wild Weather</item>
+        <item>It\'s all about... Super Solar System</item>
+        <item>The Best Book of Martial Arts</item>
+        <item>It\'s All About... Riotous Rain Forests</item>
+        <item>It\'s All About... Beastly Bugs</item>
+        <item>It\'s All About... Speedy Trains</item>
+        <item>It\'s all about... Fast Cars</item>
+        <item>It\'s All About... Cats and Kittens</item>
+        <item>It\'s All About... Dogs and Puppies</item>
+        <item>It\'s All About... Slithering Snakes</item>
+        <item>It\'s All About... Scary Spiders</item>
+        <item>Here Are My Hands</item>
+        <item>In the Tall, Tall Grass</item>
+        <item>Knots on a Counting Rope</item>
+        <item>The Scrambled States of America</item>
+        <item>The Colors of Us</item>
+        <item>My Life as a Stuntboy</item>
+        <item>The Cat, the Rat, and the Baseball Bat</item>
+        <item>Kelsey Green, Reading Queen</item>
+        <item>Wild Life</item>
+        <item>Ed and Ted and Ted\'s Dog Fred</item>
+        <item>Kate &amp; Pippin</item>
+        <item>Annika Riz, Math Whiz</item>
+        <item>Joey Pigza Swallowed the Key</item>
+        <item>What Would Joey Do?</item>
+        <item>Awesome Autumn</item>
+        <item>Arcady\'s Goal</item>
+        <item>The 13-Story Treehouse</item>
+        <item>Bowling Alley Bandit</item>
+        <item>The 26-Story Treehouse</item>
+        <item>Rain Reign</item>
+        <item>Coral Reefs</item>
+        <item>Invasion of the Ufonuts</item>
+        <item>A Whole New Ballgame</item>
+        <item>Crenshaw</item>
+        <item>Jigsaw Jones: The Case from Outer Space</item>
+        <item>Jigsaw Jones: The Case of the Best Pet Ever</item>
+        <item>Jigsaw Jones: The Case of the Million-Dollar Mystery</item>
+        <item>A Storm Too Soon (Young Readers Edition)</item>
+        <item>True Rescue: The Finest Hours</item>
+        <item>True Rescue: A Storm Too Soon</item>
+        <item>My Life as a Gamer</item>
+        <item>Wish</item>
+        <item>The Wright Brothers: Nose-Diving into History (Epic Fails #1)</item>
+        <item>Not-So-Great Presidents: Commanders in Chief (Epic Fails #3)</item>
+        <item>The Race to Space: Countdown to Liftoff (Epic Fails #2)</item>
+        <item>A Sick Day for Amos McGee</item>
+        <item>Who Says Women Can\'t Be Doctors?</item>
+        <item>Jigsaw Jones: The Case of the Golden Key</item>
+        <item>Jigsaw Jones: The Case of the Haunted Scarecrow</item>
+        <item>Jigsaw Jones: The Case of the Vanishing Painting</item>
+        <item>Bad Kitty Does Not Like Dogs</item>
+        <item>Unicorn Princesses 1: Sunbeam\'s Shine</item>
+        <item>Unicorn Princesses 2: Flash\'s Dash</item>
+        <item>Stuart Goes to School</item>
+        <item>Trivia Queen, Third Grade Supreme (Ruby and the Booker Boys #2)</item>
+        <item>Ruby Bridges Goes to School: My True Story</item>
+        <item>Noodles: I Love School (Scholastic Reader, Level 1)</item>
+        <item>Polar Bear vs. Grizzly Bear (Who Would Win?)</item>
+        <item>What If You Had Animal Teeth?</item>
+        <item>Fantastic Frogs (Scholastic Discover More Reader, Level 2)</item>
+        <item>Petting Zoo (Scholastic Discover More Reader, Level 1)</item>
+        <item>When I Grow Up: Sonia Sotomayor (Scholastic Reader, Level 3)</item>
+        <item>Clifford Goes to Kindergarten (Classic Storybook)</item>
+        <item>A Girl Named Misty: The True Story of Misty Copeland (American Girl: A Girl Named)</item>
+        <item>Sink or Swim: Exploring Schools of Fish: A Branches Book (The Magic School Bus Rides Again)</item>
+        <item>The School Play (Peppa Pig)</item>
+        <item>Blowing in the Wind (Magic School Bus Rides Again: Scholastic Reader, Level 2)</item>
+        <item>Hide and Seek (The Magic School Bus Rides Again: Scholastic Reader, Level 2)</item>
+        <item>Class Trip (Peppa Pig)</item>
+        <item>Peppa\'s School Day (Peppa Pig: Scholastic Reader, Level 1)</item>
+        <item>Balto (Animals to the Rescue #1)</item>
+        <item>Plants We Eat (Be an Expert!)</item>
+        <item>Buddy to the Rescue (Bob Books Stories: Scholastic Reader, Level 1)</item>
+        <item>Cupcake Surprise! (Bob Books Stories: Scholastic Reader, Level 1)</item>
+        <item>The New Puppy (Bob Books Stories: Scholastic Reader, Level 1)</item>
+        <item>Outdoor Adventures! (Bob Books Stories: Scholastic Reader, Level 1)</item>
+        <item>My School Trip (Bob Books Stories: Scholastic Reader, Level 1)</item>
+        <item>I Can Ride! (Bob Books Stories: Scholastic Reader, Level 1)</item>
+        <item>On the Court with...LeBron James</item>
+        <item>Michael Jordan</item>
+        <item>Ling &amp; Ting</item>
+        <item>Hook Shot Hero</item>
+        <item>Arthur\'s Mystery Envelope</item>
+        <item>Arthur Locked in the Library!</item>
+        <item>Arthur and the Mystery of the Stolen Bike</item>
+        <item>Catch That Pass!</item>
+        <item>Catcher with a Glass Arm</item>
+        <item>Dirt Bike Racer</item>
+        <item>Ling &amp; Ting: Twice as Silly</item>
+        <item>Ling &amp; Ting Share a Birthday</item>
+        <item>Soccer Scoop</item>
+        <item>The First Adventures of Spider</item>
+        <item>The Dog That Stole Football Plays</item>
+        <item>The Very Fairy Princess: Teacher\'s Pet</item>
+        <item>Otto Goes to School</item>
+        <item>Space Taxi</item>
+        <item>Space Taxi: Water Planet Rescue</item>
+        <item>Otto Goes to the Beach</item>
+        <item>Stef Soto, Taco Queen</item>
+        <item>Dinotrux Go to School</item>
+        <item>Meet the Dinotrux</item>
+        <item>Serena Williams</item>
+        <item>World Cup</item>
+        <item>Despicable Me 3: The Good, the Bad, and the Yellow</item>
+        <item>On the Court with...Stephen Curry</item>
+        <item>I Love My Hair!</item>
+        <item>National Geographic Readers: Volcanoes!</item>
+        <item>National Geographic Readers: Sharks!</item>
+        <item>National Geographic Readers: Frogs!</item>
+        <item>National Geographic Readers: Storms!</item>
+        <item>National Geographic Readers: Penguins!</item>
+        <item>National Geographic Readers: Snakes!</item>
+        <item>National Geographic Readers: Trucks</item>
+        <item>National Geographic Readers: Ants</item>
+        <item>National Geographic Readers: Pandas</item>
+        <item>National Geographic Readers: Bats</item>
+        <item>National Geographic Readers: Great Migrations Butterflies</item>
+        <item>National Geographic Readers: Cats vs. Dogs</item>
+        <item>National Geographic Readers: Deadliest Animals</item>
+        <item>National Geographic Readers: Dinosaurs</item>
+        <item>National Geographic Readers: Ponies</item>
+        <item>National Geographic Readers: Sea Turtles</item>
+        <item>National Geographic Readers: Cheetahs</item>
+        <item>National Geographic Readers: Tigers</item>
+        <item>National Geographic Readers: Lizards</item>
+        <item>National Geographic Readers: Rocks and Minerals</item>
+        <item>National Geographic Readers: Saving Animal Babies</item>
+        <item>National Geographic Readers: Weird Sea Creatures</item>
+        <item>National Geographic Readers: Titanic</item>
+        <item>National Geographic Readers: Deadly Predators</item>
+        <item>National Geographic Readers: Weather</item>
+        <item>National Geographic Readers: Amelia Earhart</item>
+        <item>National Geographic Readers: Koalas</item>
+        <item>National Geographic Readers: Seed to Plant</item>
+        <item>National Geographic Readers: Water</item>
+        <item>National Geographic Readers: Thomas Edison</item>
+        <item>National Geographic Readers: Swim Fish!</item>
+        <item>National Geographic Readers: Go Cub!</item>
+        <item>National Geographic Readers: Owls</item>
+        <item>National Geographic Readers: Mars</item>
+        <item>National Geographic Readers: Barack Obama</item>
+        <item>National Geographic Readers: Nelson Mandela</item>
+        <item>Good Driving, Amelia Bedelia</item>
+        <item>Calling Doctor Amelia Bedelia</item>
+        <item>Space Cat</item>
+        <item>Biscuit Wins a Prize</item>
+        <item>Biscuit and the Baby</item>
+        <item>Flat Stanley: His Original Adventure!</item>
+        <item>My Weird School #1: Miss Daisy Is Crazy!</item>
+        <item>My Weird School #2: Mr. Klutz Is Nuts!</item>
+        <item>My Weird School #3: Mrs. Roopy Is Loopy!</item>
+        <item>Amelia Bedelia and the Baby</item>
+        <item>Amelia Bedelia Helps Out</item>
+        <item>Teach Us, Amelia Bedelia</item>
+        <item>Good Work, Amelia Bedelia</item>
+        <item>Amelia Bedelia, Rocket Scientist?</item>
+        <item>How to Drive Your Sister Crazy</item>
+        <item>Loose Tooth</item>
+        <item>Whose Hat Is It?</item>
+        <item>The Best Chef in Second Grade</item>
+        <item>The Best Teacher in Second Grade</item>
+        <item>My Parents Think I\'m Sleeping</item>
+        <item>Amazing Gorillas!</item>
+        <item>Mittens</item>
+        <item>What\'s That, Mittens?</item>
+        <item>Follow Me, Mittens</item>
+        <item>Pedro\'s Burro</item>
+        <item>Septimus Heap, Book One: Magyk</item>
+        <item>The Berenstain Bears Play T-Ball</item>
+        <item>The Berenstain Bears Down on the Farm</item>
+        <item>The Berenstain Bears\' New Kitten</item>
+        <item>Biscuit Visits the Big City</item>
+        <item>Biscuit\'s Day at the Farm</item>
+        <item>Biscuit and the Little Pup</item>
+        <item>One Crazy Summer</item>
+        <item>Little Critter: Snowball Soup</item>
+        <item>Little Critter: Going to the Firehouse</item>
+        <item>Little Critter: To the Rescue!</item>
+        <item>Little Critter: This Is My Town</item>
+        <item>Little Critter: The Fall Festival</item>
+        <item>Little Critter: Going to the Sea Park</item>
+        <item>Little Critter: Just Saving My Money</item>
+        <item>Little Critter: A Green, Green Garden</item>
+        <item>A Birthday for Frances</item>
+        <item>Bread and Jam for Frances</item>
+        <item>A Baby Sister for Frances</item>
+        <item>Amelia Bedelia and the Cat</item>
+        <item>Amelia Bedelia Bakes Off</item>
+        <item>Go West, Amelia Bedelia!</item>
+        <item>Monster School: First Day Frights</item>
+        <item>Monster School: The Spooky Sleepover</item>
+        <item>A Series of Unfortunate Events #2: The Reptile Room</item>
+        <item>A Series of Unfortunate Events #3: The Wide Window</item>
+        <item>Biscuit Meets the Class Pet</item>
+        <item>Fancy Nancy at the Museum</item>
+        <item>Fancy Nancy: Poison Ivy Expert</item>
+        <item>Gilbert, the Surfer Dude</item>
+        <item>Tick Tock Clock</item>
+        <item>Flat Stanley and the Haunted House</item>
+        <item>Never Kick a Ghost and Other Silly Chillers</item>
+        <item>Little Critter: Just a Little Love</item>
+        <item>Little Critter: Just a Special Day</item>
+        <item>Little Critter: Just a Teacher\'s Pet</item>
+        <item>Little Critter: Just a Baby Bird</item>
+        <item>Fancy Nancy: The Show Must Go On</item>
+        <item>A Nest for Celeste</item>
+        <item>Dirt on My Shirt: Selected Poems</item>
+        <item>Ducks in a Row</item>
+        <item>Biscuit Plays Ball</item>
+        <item>Biscuit Loves the Library</item>
+        <item>The Voyage of the Dawn Treader: Aboard the Dawn Treader</item>
+        <item>My Weirder School #1: Miss Child Has Gone Wild!</item>
+        <item>Splat the Cat and the Duck with No Quack</item>
+        <item>The One and Only Ivan</item>
+        <item>The Last Musketeer #3: Double Cross</item>
+        <item>Penny and Her Marble</item>
+        <item>Pony Scouts: The New Pony</item>
+        <item>Diary of a Worm: Teacher\'s Pet</item>
+        <item>Diary of a Worm: Nat the Gnat</item>
+        <item>Splat the Cat: The Name of the Game</item>
+        <item>Splat the Cat with a Bang and a Clang</item>
+        <item>Amelia Bedelia Chapter Book #2: Amelia Bedelia Unleashed</item>
+        <item>Amelia Bedelia Chapter Book #3: Amelia Bedelia Road Trip!</item>
+        <item>Pete the Cat: Too Cool for School</item>
+        <item>Gone Crazy in Alabama</item>
+        <item>Charlie the Ranch Dog: Charlie\'s New Friend</item>
+        <item>Axel the Truck: Rocky Road</item>
+        <item>Biscuit Goes Camping</item>
+        <item>Biscuit Flies a Kite</item>
+        <item>The Year of Billy Miller</item>
+        <item>Clark the Shark: Too Many Treats</item>
+        <item>Danny and the Dinosaur and the Girl Next Door</item>
+        <item>Danny and the Dinosaur: School Days</item>
+        <item>Splat the Cat: Twice the Mice</item>
+        <item>Masterminds: Payback</item>
+        <item>Pete the Cat: A Pet for Pete</item>
+        <item>Pete the Cat\'s Train Trip</item>
+        <item>Endling #2: The First</item>
+        <item>Guinness World Records: Daring Dogs</item>
+        <item>Guinness World Records: Wacky Wheels</item>
+        <item>Wishing Day</item>
+        <item>Mighty Truck: The Traffic Tie-Up</item>
+        <item>The Berenstain Bears: We Love Soccer!</item>
+        <item>The Berenstain Bears Play Football!</item>
+        <item>The Berenstain Bears: We Love the Library</item>
+        <item>The Berenstain Bears\' Big Machines</item>
+        <item>Duck, Duck, Dinosaur: Bubble Blast</item>
+        <item>Duck, Duck, Dinosaur: Spring Smiles</item>
+        <item>Dig, Dogs, Dig</item>
+        <item>Louise Loves Bake Sales</item>
+        <item>Louise and the Class Pet</item>
+        <item>Chicken in Mittens</item>
+        <item>Chicken on Vacation</item>
+        <item>Chicken on a Broom</item>
+        <item>Chicken in Charge</item>
+        <item>Flat Stanley and the Bees</item>
+        <item>Otter: Hello, Sea Friends!</item>
+        <item>Otter: Let\'s Go Swimming!</item>
+        <item>My Weird School Goes to the Museum</item>
+        <item>My Weird School: Class Pet Mess!</item>
+        <item>My Weird School: Teamwork Trouble</item>
+        <item>Fancy Nancy: JoJo and the Magic Trick</item>
+        <item>Fancy Nancy: JoJo and the Big Mess</item>
+        <item>How a Seed Grows</item>
+        <item>Roscoe Riley Rules #1: Never Glue Your Friends to Chairs</item>
+        <item>Fox the Tiger</item>
+        <item>Fox Is Late</item>
+        <item>Pete the Cat and the Surprise Teacher</item>
+        <item>Pete the Cat and the Tip-Top Tree House</item>
+        <item>Danny and the Dinosaur: The Big Sneeze</item>
+        <item>Danny and the Dinosaur Mind Their Manners</item>
+        <item>Danny and the Dinosaur in the Big City</item>
+        <item>Moo</item>
+        <item>My Weirdest School #12: Ms. Hall Is a Goofball!</item>
+        <item>Paddington Plays On</item>
+        <item>Paddington\'s Day Off</item>
+        <item>Paddington\'s Prize Picture</item>
+        <item>Little Critter: Exploring the Great Outdoors</item>
+        <item>Little Critter: Just My Best Friend</item>
+        <item>Little Critter: Monster Truck</item>
+        <item>Ranger Rick: I Wish I Was an Elephant</item>
+        <item>Ranger Rick: I Wish I Was a Wolf</item>
+        <item>Ranger Rick: I Wish I Was a Monarch Butterfly</item>
+        <item>Ranger Rick: I Wish I Was a Bison</item>
+        <item>Ranger Rick: I Wish I Was a Llama</item>
+        <item>Ranger Rick: I Wish I Was a Sea Turtle</item>
+        <item>Ranger Rick: I Wish I Was a Flamingo</item>
+        <item>Ranger Rick: I Wish I Was a Kangaroo</item>
+        <item>I Want to Be a Doctor</item>
+        <item>I Want to Be a Police Officer</item>
+        <item>I Want to Be a Veterinarian</item>
+        <item>Ben Franklin Thinks Big</item>
+        <item>George Washington: The First President</item>
+        <item>Martin Luther King Jr.: A Peaceful Leader</item>
+        <item>Jane Goodall: A Champion of Chimpanzees</item>
+        <item>Harriet Tubman: Freedom Fighter</item>
+        <item>Thomas Edison: Lighting the Way</item>
+        <item>Alexander Hamilton: A Plan for America</item>
+        <item>Biscuit and the Big Parade!</item>
+        <item>Biscuit Loves the Park</item>
+        <item>Biscuit’s Snow Day Race</item>
+        <item>Orphan Island</item>
+        <item>Bat and the Waiting Game</item>
+        <item>Pinkalicious and the Babysitter</item>
+        <item>Pinkalicious at the Fair</item>
+        <item>Saving Winslow</item>
+        <item>Bravelands #2: Code of Honor</item>
+        <item>In a Dark, Dark Room and Other Scary Stories</item>
+        <item>Pete the Cat and the Lost Tooth</item>
+        <item>Pete the Cat and the Cool Caterpillar</item>
+        <item>Pete the Cat\'s Groovy Bake Sale</item>
+        <item>Pete the Cat Goes Camping</item>
+        <item>Pete the Cat\'s Trip to the Supermarket</item>
+        <item>Scary Stories to Tell in the Dark</item>
+        <item>The Book of Boy</item>
+        <item>The Best Seat in Kindergarten</item>
+        <item>The Best Seat in First Grade</item>
+        <item>My Weirder-est School #1: Dr. Snow Has Got to Go!</item>
+        <item>My Weirder-est School #2: Miss Porter Is Out of Order!</item>
+        <item>Axel the Truck: Speed Track</item>
+        <item>Axel the Truck: Field Trip</item>
+        <item>Splat the Cat Gets a Job!</item>
+        <item>Splat the Cat and the Lemonade Stand</item>
+        <item>Splat the Cat and the Cat in the Moon</item>
+        <item>Splat the Cat and the Obstacle Course</item>
+        <item>Little Penguin and the Mysterious Object</item>
+        <item>Harry\'s Squirrel Trouble</item>
+        <item>Harry at the Dog Show</item>
+        <item>Wild Rescuers: Guardians of the Taiga</item>
+        <item>Bat and the End of Everything</item>
+        <item>Stay</item>
+        <item>Pinkalicious: Fishtastic!</item>
+        <item>Disney Junior Fancy Nancy: The Case of the Disappearing Doll</item>
+        <item>Otter: I Love Books!</item>
+        <item>Otter: What Pet Is Best?</item>
+        <item>Spies in Disguise: Meet the Spies</item>
+        <item>Spies in Disguise: Lance Saves the World</item>
+        <item>Great Escapes #1: Nazi Prison Camp Escape</item>
+        <item>Pete the Kitty and the Case of the Hiccups</item>
+        <item>Pete the Kitty Goes to the Doctor</item>
+        <item>Pete the Cat’s Family Road Trip</item>
+        <item>Pete the Kitty and the Unicorn\'s Missing Colors</item>
+        <item>Pete the Cat: Super Pete</item>
+        <item>Biscuit and the Little Llamas</item>
+        <item>Biscuit and Friends Visit the Community Garden</item>
+        <item>Biscuit and the Great Fall Day</item>
+        <item>Biscuit and Friends: A Day at the Aquarium</item>
+        <item>Clark the Shark: Friends Forever</item>
+        <item>Penny and Her Sled</item>
+        <item>Amelia Bedelia Gets the Picture</item>
+        <item>The Seven Treasure Hunts</item>
+        <item>Cece Loves Science: Push and Pull</item>
+        <item>Libby Loves Science: Mix and Measure</item>
+        <item>The Addams Family: Meet the Family</item>
+        <item>Molly of Denali: Little Dog Lost</item>
+        <item>Ty\'s Travels: All Aboard!</item>
+        <item>Ty\'s Travels: Zip, Zoom!</item>
+        <item>Ty\'s Travels: Beach Day!</item>
+        <item>Ty\'s Travels: Lab Magic</item>
+        <item>The Bad Seed Goes to the Library</item>
+        <item>The Good Egg and the Talent Show</item>
+        <item>Amelia Bedelia Lost and Found</item>
+        <item>Amelia Bedelia Steps Out</item>
+        <item>Wonder Woman 1984: Destined for Greatness</item>
+        <item>Pete the Kitty: Ready, Set, Go-Cart!</item>
+        <item>Pete the Cat: Rocking Field Day</item>
+        <item>Pete the Cat: Making New Friends</item>
+        <item>Pete the Kitty: Wash Your Hands</item>
+        <item>Pete the Cat\'s Not So Groovy Day</item>
+        <item>Pete the Cat and the Sprinkle Stealer</item>
+        <item>Pete the Kitty\'s Outdoor Art Project</item>
+        <item>Pete the Cat Saves Up</item>
+        <item>Fox versus Winter</item>
+        <item>Fox at Night</item>
+        <item>The Adventures of Paddington: Pancake Day!</item>
+        <item>The Adventures of Paddington: Paddington and the Painting</item>
+        <item>The Adventures of Paddington: Paddington and the Pigeon</item>
+        <item>I Want to Be a Teacher</item>
+        <item>I Want to Be an Engineer</item>
+        <item>I Want to Be a Firefighter</item>
+        <item>Otter: Best Cake Ever</item>
+        <item>Pinkalicious: Kindergarten Fun</item>
+        <item>The One and Only Ivan: It’s Showtime!</item>
+        <item>The One and Only Ivan: New Friends</item>
+        <item>The Berenstain Bears: Too Much Noise!</item>
+        <item>The Berenstain Bears Blast Off!</item>
+        <item>The Berenstain Bears Share and Share Alike!</item>
+        <item>My Little Pony: Pony Life: Meet the Ponies</item>
+        <item>My Little Pony: Izzy Comes Home</item>
+        <item>My Little Pony: Sister Switch</item>
+        <item>My Little Pony: Izzy Does It</item>
+        <item>Hello, Ninja. Goodbye, Tooth!</item>
+        <item>Hello, Ninja. Hello, Stage Fright!</item>
+        <item>Fish and Wave</item>
+        <item>Smurfs: Meet the Smurfs</item>
+        <item>Ty’s Travels: Winter Wonderland</item>
+        <item>Ty\'s Travels: Camp-Out</item>
+        <item>Baby Shark’s Big Show!: Meet the Shark Family and Friends</item>
+        <item>Baby Shark’s Big Show!: Hide and Hunt</item>
+        <item>Baby Shark: Happy Mommy\'s Day</item>
+        <item>Trash Truck: Meet Hank</item>
+        <item>Love, Diana: Meet Diana</item>
+        <item>Love, Diana: Boris the School Bully</item>
+        <item>Gigi and Ojiji</item>
+        <item>Gigi and Ojiji: What’s in a Name?</item>
+        <item>Reina Ramos Works It Out</item>
+        <item>Lyle, Lyle, Crocodile: Meet Lyle</item>
+        <item>Julie of the Wolves</item>
+        <item>Stone Fox</item>
+        <item>In the Year of the Boar and Jackie Robinson</item>
+        <item>Ella Enchanted</item>
+        <item>Harry the Dirty Dog</item>
+        <item>The Mixed-Up Chameleon</item>
+        <item>The Listening Walk</item>
     </string-array>
     <string-array name="book_price">
         <item>1499</item> <!-- Four Frontiers -->
@@ -852,6 +2049,3220 @@
         <item>499</item>
         <item>499</item>
         <item>499</item>
+        <item>599</item>
+        <item>599</item>
+        <item>599</item>
+        <item>599</item>
+        <item>599</item>
+        <item>599</item>
+        <item>599</item>
+        <item>599</item>
+        <item>599</item>
+        <item>599</item>
+        <item>599</item>
+        <item>599</item>
+        <item>599</item>
+        <item>599</item>
+        <item>599</item>
+        <item>599</item>
+        <item>599</item>
+        <item>599</item>
+        <item>599</item>
+        <item>599</item>
+        <item>499</item>
+        <item>499</item>
+        <item>599</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>599</item>
+        <item>599</item>
+        <item>599</item>
+        <item>499</item>
+        <item>499</item>
+        <item>599</item>
+        <item>499</item>
+        <item>599</item>
+        <item>599</item>
+        <item>499</item>
+        <item>599</item>
+        <item>499</item>
+        <item>599</item>
+        <item>599</item>
+        <item>499</item>
+        <item>599</item>
+        <item>599</item>
+        <item>599</item>
+        <item>599</item>
+        <item>499</item>
+        <item>599</item>
+        <item>599</item>
+        <item>499</item>
+        <item>499</item>
+        <item>599</item>
+        <item>599</item>
+        <item>599</item>
+        <item>599</item>
+        <item>499</item>
+        <item>499</item>
+        <item>599</item>
+        <item>599</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>599</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>499</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="book_lexile">
+        <item>-</item> <!-- Four Frontiers -->
+        <item>610</item>
+        <item>-</item>
+        <item>AD630</item>
+        <item>560</item>
+        <item>-</item>
+        <item>AD560</item>
+        <item>-</item>
+        <item>470</item>
+        <item>250</item>
+        <item>660</item>
+        <item>860</item>
+        <item>620</item>
+        <item>AD480</item>
+        <item>520</item>
+        <item>470</item>
+        <item>440</item>
+        <item>-</item>
+        <item>540</item>
+        <item>560</item>
+        <item>350</item>
+        <item>820</item>
+        <item>370</item>
+        <item>360</item>
+        <item>390</item>
+        <item>380</item>
+        <item>430</item>
+        <item>490</item>
+        <item>730</item>
+        <item>470</item>
+        <item>430</item>
+        <item>AD520</item>
+        <item>AD470</item>
+        <item>AD590</item>
+        <item>AD440</item>
+        <item>360</item>
+        <item>-</item>
+        <item>-</item>
+        <item>540</item>
+        <item>-</item>
+        <item>AD520</item>
+        <item>470</item>
+        <item>780</item>
+        <item>450</item>
+        <item>220</item>
+        <item>370</item>
+        <item>470</item>
+        <item>-</item>
+        <item>AD490</item>
+        <item>160</item>
+        <item>-</item>
+        <item>-</item>
+        <item>310</item>
+        <item>AD490</item>
+        <item>490</item>
+        <item>550</item>
+        <item>430</item>
+        <item>AD590</item>
+        <item>370</item>
+        <item>290</item>
+        <item>320</item>
+        <item>-</item>
+        <item>130</item>
+        <item>450</item>
+        <item>NC1080</item>
+        <item>NC880</item>
+        <item>480</item>
+        <item>390</item>
+        <item>450</item>
+        <item>-</item>
+        <item>-</item>
+        <item>480</item>
+        <item>530</item>
+        <item>570</item>
+        <item>370</item>
+        <item>-</item>
+        <item>AD480</item>
+        <item>370</item>
+        <item>-</item>
+        <item>560</item>
+        <item>130</item>
+        <item>390</item>
+        <item>550</item>
+        <item>610</item>
+        <item>450</item>
+        <item>610</item>
+        <item>460</item>
+        <item>480</item>
+        <item>-</item>
+        <item>460</item>
+        <item>440</item>
+        <item>470</item>
+        <item>460</item>
+        <item>500</item>
+        <item>480</item>
+        <item>440</item>
+        <item>230</item>
+        <item>NC1060</item>
+        <item>380</item>
+        <item>430</item>
+        <item>NC910</item>
+        <item>AD480</item>
+        <item>770</item>
+        <item>NC830</item>
+        <item>NC860</item>
+        <item>NC940</item>
+        <item>NC790</item>
+        <item>290</item>
+        <item>270</item>
+        <item>230</item>
+        <item>540</item>
+        <item>390</item>
+        <item>880</item>
+        <item>-</item>
+        <item>AD320</item>
+        <item>550</item>
+        <item>NC810</item>
+        <item>AD480</item>
+        <item>-</item>
+        <item>300</item>
+        <item>280</item>
+        <item>910</item>
+        <item>160</item>
+        <item>180</item>
+        <item>100</item>
+        <item>130</item>
+        <item>870</item>
+        <item>940</item>
+        <item>AD450</item>
+        <item>490</item>
+        <item>-</item>
+        <item>900</item>
+        <item>-</item>
+        <item>NC1070</item>
+        <item>510</item>
+        <item>450</item>
+        <item>370</item>
+        <item>540</item>
+        <item>570</item>
+        <item>240</item>
+        <item>180</item>
+        <item>450</item>
+        <item>270</item>
+        <item>400</item>
+        <item>320</item>
+        <item>-</item>
+        <item>-</item>
+        <item>850</item>
+        <item>480</item>
+        <item>AD510</item>
+        <item>-</item>
+        <item>740</item>
+        <item>290</item>
+        <item>-</item>
+        <item>480</item>
+        <item>AD440</item>
+        <item>440</item>
+        <item>430</item>
+        <item>230</item>
+        <item>-</item>
+        <item>-</item>
+        <item>530</item>
+        <item>AD420</item>
+        <item>-</item>
+        <item>570</item>
+        <item>820</item>
+        <item>490</item>
+        <item>-</item>
+        <item>410</item>
+        <item>490</item>
+        <item>570</item>
+        <item>600</item>
+        <item>590</item>
+        <item>600</item>
+        <item>580</item>
+        <item>290</item>
+        <item>400</item>
+        <item>-</item>
+        <item>AD500</item>
+        <item>490</item>
+        <item>-</item>
+        <item>450</item>
+        <item>310</item>
+        <item>510</item>
+        <item>340</item>
+        <item>-</item>
+        <item>-</item>
+        <item>330</item>
+        <item>460</item>
+        <item>-</item>
+        <item>AD400</item>
+        <item>560</item>
+        <item>AD450</item>
+        <item>590</item>
+        <item>450</item>
+        <item>380</item>
+        <item>-</item>
+        <item>780</item>
+        <item>AD830</item>
+        <item>210</item>
+        <item>-</item>
+        <item>-</item>
+        <item>480</item>
+        <item>470</item>
+        <item>550</item>
+        <item>780</item>
+        <item>380</item>
+        <item>490</item>
+        <item>AD420</item>
+        <item>AD480</item>
+        <item>270</item>
+        <item>500</item>
+        <item>-</item>
+        <item>-</item>
+        <item>AD390</item>
+        <item>540</item>
+        <item>AD480</item>
+        <item>NC950</item>
+        <item>620</item>
+        <item>AD350</item>
+        <item>NC1040</item>
+        <item>450</item>
+        <item>320</item>
+        <item>NC1030</item>
+        <item>470</item>
+        <item>460</item>
+        <item>1020</item>
+        <item>NC880</item>
+        <item>420</item>
+        <item>520 </item>
+        <item>530</item>
+        <item>-</item>
+        <item>-</item>
+        <item>480</item>
+        <item>-</item>
+        <item>390</item>
+        <item>690</item>
+        <item>290</item>
+        <item>340</item>
+        <item>720</item>
+        <item>880</item>
+        <item>NC940</item>
+        <item>NC920</item>
+        <item>-</item>
+        <item>540</item>
+        <item>520</item>
+        <item>480</item>
+        <item>AD390</item>
+        <item>390</item>
+        <item>-</item>
+        <item>290</item>
+        <item>340</item>
+        <item>220</item>
+        <item>500</item>
+        <item>520</item>
+        <item>550</item>
+        <item>500</item>
+        <item>-</item>
+        <item>360</item>
+        <item>-</item>
+        <item>AD430</item>
+        <item>660</item>
+        <item>AD370</item>
+        <item>330</item>
+        <item>-</item>
+        <item>-</item>
+        <item>880</item>
+        <item>580</item>
+        <item>510</item>
+        <item>520</item>
+        <item>-</item>
+        <item>380L</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>50L</item>
+        <item>-</item>
+        <item>-</item>
+        <item>490L</item>
+        <item>310</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>560</item>
+        <item>280L</item>
+        <item>210</item>
+        <item>150</item>
+        <item>340</item>
+        <item>370</item>
+        <item>390</item>
+        <item>470</item>
+        <item>330</item>
+        <item>330</item>
+        <item>460</item>
+        <item>-</item>
+        <item>790</item>
+        <item>430</item>
+        <item>540</item>
+        <item>330</item>
+        <item>320</item>
+        <item>-</item>
+        <item>280</item>
+        <item>430</item>
+        <item>360</item>
+        <item>270</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>470</item>
+        <item>-</item>
+        <item>250</item>
+        <item>400</item>
+        <item>340</item>
+        <item>340</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>310</item>
+        <item>120</item>
+        <item>-</item>
+        <item>440</item>
+        <item>70</item>
+        <item>-</item>
+        <item>190</item>
+        <item>130</item>
+        <item>-</item>
+        <item>BR</item>
+        <item>110</item>
+        <item>260</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>BR</item>
+        <item>BR</item>
+        <item>BR </item>
+        <item>Br</item>
+        <item>100</item>
+        <item>200</item>
+        <item>230</item>
+        <item>230</item>
+        <item>190</item>
+        <item>420</item>
+        <item>320</item>
+        <item>230</item>
+        <item>420</item>
+        <item>360</item>
+        <item>390</item>
+        <item>-</item>
+        <item>-</item>
+        <item>160</item>
+        <item>460</item>
+        <item>290</item>
+        <item>320</item>
+        <item>290</item>
+        <item>490</item>
+        <item>330</item>
+        <item>450</item>
+        <item>250</item>
+        <item>240</item>
+        <item>310</item>
+        <item>210</item>
+        <item>330</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="book_level">
+        <item>-</item> <!-- Four Frontiers -->
+        <item>N</item>
+        <item>-</item>
+        <item>K</item>
+        <item>N</item>
+        <item>-</item>
+        <item>N</item>
+        <item>-</item>
+        <item>M</item>
+        <item>G</item>
+        <item>P</item>
+        <item>T</item>
+        <item>O</item>
+        <item>M</item>
+        <item>N</item>
+        <item>M</item>
+        <item>L</item>
+        <item>-</item>
+        <item>N</item>
+        <item>I</item>
+        <item>K</item>
+        <item>S</item>
+        <item>G</item>
+        <item>K</item>
+        <item>K</item>
+        <item>E</item>
+        <item>H</item>
+        <item>J</item>
+        <item>R</item>
+        <item>G</item>
+        <item>L</item>
+        <item>N</item>
+        <item>M</item>
+        <item>I</item>
+        <item>L</item>
+        <item>K</item>
+        <item>-</item>
+        <item>-</item>
+        <item>K</item>
+        <item>-</item>
+        <item>N</item>
+        <item>M</item>
+        <item>R</item>
+        <item>M</item>
+        <item>G</item>
+        <item>J</item>
+        <item>M</item>
+        <item>-</item>
+        <item>M</item>
+        <item>F</item>
+        <item>-</item>
+        <item>-</item>
+        <item>J</item>
+        <item>M</item>
+        <item>J</item>
+        <item>L</item>
+        <item>L</item>
+        <item>O</item>
+        <item>K</item>
+        <item>I</item>
+        <item>J</item>
+        <item>-</item>
+        <item>E</item>
+        <item>M</item>
+        <item>Z</item>
+        <item>U</item>
+        <item>F</item>
+        <item>K</item>
+        <item>L</item>
+        <item>-</item>
+        <item>-</item>
+        <item>M</item>
+        <item>L</item>
+        <item>M</item>
+        <item>F</item>
+        <item>-</item>
+        <item>M</item>
+        <item>J</item>
+        <item>-</item>
+        <item>N</item>
+        <item>E</item>
+        <item>K</item>
+        <item>N</item>
+        <item>M</item>
+        <item>M</item>
+        <item>N</item>
+        <item>M</item>
+        <item>M</item>
+        <item>-</item>
+        <item>M</item>
+        <item>L</item>
+        <item>M</item>
+        <item>M</item>
+        <item>N</item>
+        <item>M</item>
+        <item>J</item>
+        <item>G</item>
+        <item>Z</item>
+        <item>I</item>
+        <item>K</item>
+        <item>V</item>
+        <item>I</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>V</item>
+        <item>S</item>
+        <item>F</item>
+        <item>H</item>
+        <item>G</item>
+        <item>L</item>
+        <item>J</item>
+        <item>s</item>
+        <item>-</item>
+        <item>E</item>
+        <item>N</item>
+        <item>S</item>
+        <item>I</item>
+        <item>-</item>
+        <item>J</item>
+        <item>I</item>
+        <item>V</item>
+        <item>F</item>
+        <item>F</item>
+        <item>E</item>
+        <item>E</item>
+        <item>U</item>
+        <item>V</item>
+        <item>F</item>
+        <item>M</item>
+        <item>-</item>
+        <item>U</item>
+        <item>-</item>
+        <item>y</item>
+        <item>J</item>
+        <item>M</item>
+        <item>J</item>
+        <item>N</item>
+        <item>N</item>
+        <item>H</item>
+        <item>F</item>
+        <item>M</item>
+        <item>H</item>
+        <item>L</item>
+        <item>I</item>
+        <item>-</item>
+        <item>-</item>
+        <item>W</item>
+        <item>L</item>
+        <item>N</item>
+        <item>-</item>
+        <item>L</item>
+        <item>H</item>
+        <item>-</item>
+        <item>I</item>
+        <item>G</item>
+        <item>I</item>
+        <item>J</item>
+        <item>H</item>
+        <item>-</item>
+        <item>-</item>
+        <item>I</item>
+        <item>L</item>
+        <item>-</item>
+        <item>N</item>
+        <item>X</item>
+        <item>G</item>
+        <item>-</item>
+        <item>L</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>L</item>
+        <item>L</item>
+        <item>M</item>
+        <item>H</item>
+        <item>L</item>
+        <item>-</item>
+        <item>N</item>
+        <item>I</item>
+        <item>-</item>
+        <item>M</item>
+        <item>J</item>
+        <item>J</item>
+        <item>F</item>
+        <item>-</item>
+        <item>-</item>
+        <item>I</item>
+        <item>M</item>
+        <item>-</item>
+        <item>L</item>
+        <item>M</item>
+        <item>G</item>
+        <item>K</item>
+        <item>M</item>
+        <item>F</item>
+        <item>-</item>
+        <item>S</item>
+        <item>O</item>
+        <item>C</item>
+        <item>-</item>
+        <item>-</item>
+        <item>M</item>
+        <item>F</item>
+        <item>J</item>
+        <item>T</item>
+        <item>K</item>
+        <item>M</item>
+        <item>F</item>
+        <item>I</item>
+        <item>H</item>
+        <item>L</item>
+        <item>-</item>
+        <item>-</item>
+        <item>K</item>
+        <item>N</item>
+        <item>J</item>
+        <item>V</item>
+        <item>N</item>
+        <item>K</item>
+        <item>X</item>
+        <item>M</item>
+        <item>I</item>
+        <item>Y</item>
+        <item>H</item>
+        <item>K</item>
+        <item>X</item>
+        <item>U</item>
+        <item>H</item>
+        <item>K</item>
+        <item>N</item>
+        <item>-</item>
+        <item>-</item>
+        <item>L</item>
+        <item>-</item>
+        <item>K</item>
+        <item>P</item>
+        <item>H</item>
+        <item>J</item>
+        <item>Q</item>
+        <item>V</item>
+        <item>X</item>
+        <item>U</item>
+        <item>-</item>
+        <item>K</item>
+        <item>K</item>
+        <item>M</item>
+        <item>K</item>
+        <item>F</item>
+        <item>-</item>
+        <item>D</item>
+        <item>J</item>
+        <item>C</item>
+        <item>H</item>
+        <item>L</item>
+        <item>N</item>
+        <item>N</item>
+        <item>-</item>
+        <item>K</item>
+        <item>-</item>
+        <item>H</item>
+        <item>P</item>
+        <item>J</item>
+        <item>I</item>
+        <item>-</item>
+        <item>-</item>
+        <item>W</item>
+        <item>M</item>
+        <item>N</item>
+        <item>M</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="book_dra">
+        <item>-</item> <!-- Four Frontiers -->
+        <item>29</item>
+        <item>-</item>
+        <item>17</item>
+        <item>30</item>
+        <item>-</item>
+        <item>30</item>
+        <item>-</item>
+        <item>26</item>
+        <item>12</item>
+        <item>36</item>
+        <item>45</item>
+        <item>32</item>
+        <item>28</item>
+        <item>28</item>
+        <item>26</item>
+        <item>24</item>
+        <item>-</item>
+        <item>28</item>
+        <item>16</item>
+        <item>18</item>
+        <item>40</item>
+        <item>12</item>
+        <item>18</item>
+        <item>20</item>
+        <item>8</item>
+        <item>14</item>
+        <item>17</item>
+        <item>40</item>
+        <item>12</item>
+        <item>24</item>
+        <item>28</item>
+        <item>26</item>
+        <item>12</item>
+        <item>24</item>
+        <item>18</item>
+        <item>-</item>
+        <item>-</item>
+        <item>17</item>
+        <item>-</item>
+        <item>28</item>
+        <item>26</item>
+        <item>40</item>
+        <item>26</item>
+        <item>8-10</item>
+        <item>17</item>
+        <item>26</item>
+        <item>-</item>
+        <item>28</item>
+        <item>10</item>
+        <item>-</item>
+        <item>-</item>
+        <item>14</item>
+        <item>28</item>
+        <item>16-18</item>
+        <item>20-24</item>
+        <item>24</item>
+        <item>30</item>
+        <item>18</item>
+        <item>12</item>
+        <item>14</item>
+        <item>-</item>
+        <item>8</item>
+        <item>26</item>
+        <item>70</item>
+        <item>50</item>
+        <item>10</item>
+        <item>20</item>
+        <item>20-24</item>
+        <item>-</item>
+        <item>-</item>
+        <item>28</item>
+        <item>22</item>
+        <item>22</item>
+        <item>10</item>
+        <item>-</item>
+        <item>28</item>
+        <item>17</item>
+        <item>-</item>
+        <item>30</item>
+        <item>8</item>
+        <item>20</item>
+        <item>30</item>
+        <item>22</item>
+        <item>26</item>
+        <item>29</item>
+        <item>26</item>
+        <item>28</item>
+        <item>-</item>
+        <item>26</item>
+        <item>P</item>
+        <item>26</item>
+        <item>26</item>
+        <item>28</item>
+        <item>28</item>
+        <item>17</item>
+        <item>12</item>
+        <item>70</item>
+        <item>16</item>
+        <item>17</item>
+        <item>45</item>
+        <item>16</item>
+        <item>40</item>
+        <item>40</item>
+        <item>50</item>
+        <item>50</item>
+        <item>40</item>
+        <item>10</item>
+        <item>14</item>
+        <item>12</item>
+        <item>22</item>
+        <item>17</item>
+        <item>45</item>
+        <item>-</item>
+        <item>8</item>
+        <item>30</item>
+        <item>40</item>
+        <item>16</item>
+        <item>-</item>
+        <item>14</item>
+        <item>12</item>
+        <item>45</item>
+        <item>10</item>
+        <item>10</item>
+        <item>8</item>
+        <item>8</item>
+        <item>45</item>
+        <item>50</item>
+        <item>10</item>
+        <item>28</item>
+        <item>-</item>
+        <item>45</item>
+        <item>-</item>
+        <item>60</item>
+        <item>17</item>
+        <item>26</item>
+        <item>17</item>
+        <item>28</item>
+        <item>30</item>
+        <item>10</item>
+        <item>10</item>
+        <item>26</item>
+        <item>12</item>
+        <item>22</item>
+        <item>16</item>
+        <item>-</item>
+        <item>-</item>
+        <item>60</item>
+        <item>22</item>
+        <item>28</item>
+        <item>-</item>
+        <item>20-24</item>
+        <item>14</item>
+        <item>-</item>
+        <item>16</item>
+        <item>12</item>
+        <item>16</item>
+        <item>16-18</item>
+        <item>10</item>
+        <item>-</item>
+        <item>-</item>
+        <item>16</item>
+        <item>22</item>
+        <item>-</item>
+        <item>30</item>
+        <item>60</item>
+        <item>12</item>
+        <item>-</item>
+        <item>22</item>
+        <item>22</item>
+        <item>22</item>
+        <item>29</item>
+        <item>22</item>
+        <item>22</item>
+        <item>22</item>
+        <item>14</item>
+        <item>22</item>
+        <item>-</item>
+        <item>28</item>
+        <item>16</item>
+        <item>-</item>
+        <item>26</item>
+        <item>14</item>
+        <item>16-18</item>
+        <item>10</item>
+        <item>-</item>
+        <item>-</item>
+        <item>16</item>
+        <item>26</item>
+        <item>-</item>
+        <item>22</item>
+        <item>22</item>
+        <item>12</item>
+        <item>17</item>
+        <item>26</item>
+        <item>10</item>
+        <item>-</item>
+        <item>40</item>
+        <item>34-38</item>
+        <item>3-4</item>
+        <item>-</item>
+        <item>-</item>
+        <item>28</item>
+        <item>10</item>
+        <item>16-18</item>
+        <item>45</item>
+        <item>20</item>
+        <item>28</item>
+        <item>10</item>
+        <item>16</item>
+        <item>14</item>
+        <item>20-24</item>
+        <item>-</item>
+        <item>-</item>
+        <item>20</item>
+        <item>28</item>
+        <item>17</item>
+        <item>45</item>
+        <item>29</item>
+        <item>18</item>
+        <item>60</item>
+        <item>26</item>
+        <item>16</item>
+        <item>60</item>
+        <item>14</item>
+        <item>16-18</item>
+        <item>60</item>
+        <item>45</item>
+        <item>14</item>
+        <item>17</item>
+        <item>28</item>
+        <item>-</item>
+        <item>-</item>
+        <item>22</item>
+        <item>-</item>
+        <item>20</item>
+        <item>38</item>
+        <item>14</item>
+        <item>16</item>
+        <item>38</item>
+        <item>45</item>
+        <item>60</item>
+        <item>45</item>
+        <item>-</item>
+        <item>17</item>
+        <item>17</item>
+        <item>28</item>
+        <item>20</item>
+        <item>10</item>
+        <item>-</item>
+        <item>6</item>
+        <item>16</item>
+        <item>3-4</item>
+        <item>14</item>
+        <item>20-24</item>
+        <item>29</item>
+        <item>28</item>
+        <item>-</item>
+        <item>18</item>
+        <item>-</item>
+        <item>14</item>
+        <item>36</item>
+        <item>17</item>
+        <item>16</item>
+        <item>-</item>
+        <item>-</item>
+        <item>60</item>
+        <item>20-24</item>
+        <item>28</item>
+        <item>22</item>
+        <item>-</item>
+        <item>20</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>2-4</item>
+        <item>-</item>
+        <item>-</item>
+        <item>16-18</item>
+        <item>12</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>20-24</item>
+        <item>10</item>
+        <item>10</item>
+        <item>16</item>
+        <item>14</item>
+        <item>14</item>
+        <item>16</item>
+        <item>16</item>
+        <item>16</item>
+        <item>10</item>
+        <item>16-18</item>
+        <item>-</item>
+        <item>40</item>
+        <item>24</item>
+        <item>16-18</item>
+        <item>10</item>
+        <item>14</item>
+        <item>-</item>
+        <item>12</item>
+        <item>14</item>
+        <item>12</item>
+        <item>12</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>16</item>
+        <item>-</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>12</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>6</item>
+        <item>3-4</item>
+        <item>-</item>
+        <item>16-18</item>
+        <item>6</item>
+        <item>-</item>
+        <item>3-4</item>
+        <item>8</item>
+        <item>-</item>
+        <item>3-4</item>
+        <item>A-1</item>
+        <item>8</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>3-4</item>
+        <item>2</item>
+        <item>A-1</item>
+        <item>2</item>
+        <item>3-4</item>
+        <item>3-4</item>
+        <item>8</item>
+        <item>6</item>
+        <item>6</item>
+        <item>16-18</item>
+        <item>10</item>
+        <item>8</item>
+        <item>16-18</item>
+        <item>14</item>
+        <item>16-18</item>
+        <item>-</item>
+        <item>-</item>
+        <item>10</item>
+        <item>16-18</item>
+        <item>14</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>14</item>
+        <item>16</item>
+        <item>8</item>
+        <item>10</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
     </string-array>
 
     <string-array name="student_id">
@@ -861,6 +5272,8 @@
         <item>100486</item>
         <item>100487</item>
         <item>105982</item>
+        <item>120885</item>
+        <item>120886</item>
     </string-array>
 
 </resources>
