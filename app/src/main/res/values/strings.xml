@@ -24,7 +24,7 @@
     <string name="second_fragment_label">Demo Complete</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-    <string name="reset_demo">Reset Demo</string>
+    <string name="reset_demo">Submit and Reset Demo</string>
     <string name="demo_complete">Congratulations! You have completed the demo.</string>
     <string name="pitch_text">We\'d love to reach out to you about the books you selected.</string>
 
