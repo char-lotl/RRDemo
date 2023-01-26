@@ -1482,6 +1482,8 @@
         <item>9781434227782</item>
         <item>9781434227805</item>
         <item>9781496549587</item>
+        <item>9780525581420</item>
+        <item>9781623542009</item>
     </string-array>
     <string-array name="book_title">
         <item>Four Frontiers</item>
@@ -2929,6 +2931,8 @@
         <item>Quarertback Comeback</item>
         <item>Speed Receiver</item>
         <item>Punter\'s Pride</item>
+        <item>Fairy Science</item>
+        <item>Too Small Tyson</item>
     </string-array>
     <string-array name="book_price">
         <item>1499</item> <!-- Four Frontiers -->
@@ -4376,6 +4380,8 @@
         <item>595</item>
         <item>595</item>
         <item>595</item>
+        <item>899</item>
+        <item>1599</item>
     </string-array>
 
     <string-array name="book_lexile">
@@ -5824,6 +5830,8 @@
         <item>520</item>
         <item>640</item>
         <item>640</item>
+        <item>AD540L</item>
+        <item>AD540L</item>
     </string-array>
 
     <string-array name="book_level">
@@ -7272,6 +7280,8 @@
         <item>N</item>
         <item>O</item>
         <item>O</item>
+        <item>-</item>
+        <item>L</item>
     </string-array>
 
     <string-array name="book_dra">
@@ -8720,6 +8730,8 @@
         <item>28</item>
         <item>34</item>
         <item>34</item>
+        <item>-</item>
+        <item>-</item>
     </string-array>
 
     <string-array name="student_id">

@@ -31,8 +31,6 @@ public class SecondFragment extends Fragment {
             Bundle savedInstanceState
     ) {
 
-        //rrvm.
-
         binding = FragmentSecondBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
