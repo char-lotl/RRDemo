@@ -160,8 +160,13 @@ public class RRViewModel extends ViewModel {
         CustomerDao cd = db.customerDao();
         CustomerBookDao cbd = db.customerBookDao();
 
-        cd.insertCustomer(cu).subscribe();
-        cbd.insertList(allCBs).subscribe();
+        cd.insertCustomer(cu).subscribe(
+                () -> Log.i("ViewModelLog", "Saved user successfully."),
+                error -> Log.i("ViewModelLog", "Failed to save user."));
+        cbd.insertList(allCBs).subscribe(
+                () -> Log.i("ViewModelLog", "Saved books successfully."),
+                error -> Log.i("ViewModelLog", "Failed to save books.")
+        );
 
     }
 

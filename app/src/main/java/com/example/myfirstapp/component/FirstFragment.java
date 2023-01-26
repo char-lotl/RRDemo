@@ -151,6 +151,9 @@ public class FirstFragment extends Fragment {
             holder.titleView.setText(book.title);
             String price_string = Money.decimalize(book.price);
             holder.priceView.setText(price_string);
+            holder.lexileView.setText(book.lexile);
+            holder.levelView.setText(book.level);
+            holder.draView.setText(book.dra);
             holder.removeButton.setOnClickListener(view -> {
                 int index = holder.getAdapterPosition();
                 Log.i("ButtonMessages", "Removed item " + index + ".");
@@ -170,11 +173,17 @@ public class FirstFragment extends Fragment {
             public TextView titleView;
             public TextView priceView;
             public Button removeButton;
+            public TextView lexileView;
+            public TextView levelView;
+            public TextView draView;
             BookViewHolder(View view) {
                 super(view);
                 titleView = view.findViewById(R.id.item_title);
                 priceView = view.findViewById(R.id.item_price);
                 removeButton = view.findViewById(R.id.remove_button);
+                lexileView = view.findViewById(R.id.lexile_score);
+                levelView = view.findViewById(R.id.level_score);
+                draView = view.findViewById(R.id.dra_score);
             }
         }
 

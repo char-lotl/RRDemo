@@ -14,7 +14,7 @@ public class Book {
         level = lev;
         this.dra = dra;
         long discounted = Long.parseLong(p) * 4 / 5; // 20% discount to all titles
-        if (discounted < 500) price = 500L; // $5 floor
+        if (discounted < 500 && discounted != 0) price = 500L; // $5 floor
         else price = discounted;
     }
 }

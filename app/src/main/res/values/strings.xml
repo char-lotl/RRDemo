@@ -11,6 +11,8 @@
     <string name="finished_cart_label">Finished</string>
     <string name="place_order_label">Place Order</string>
     <string name="lexile_label">Lexile</string>
+    <string name="level_label">Level</string>
+    <string name="dra_label">DRA</string>
     <string name="cart_number_label">Books in cart:</string>
     <string name="cart_total_price_label">Cart total:</string>
     <string name="class_cart_total_price_label">Class cart total:</string>
