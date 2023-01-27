@@ -34,8 +34,17 @@ public class FirstFragment extends Fragment {
         NONE,
         REMOVE_BOOK
     }
+    // When a book is scanned or a delete button is pressed, the cart
+    // will be updated -- and FirstFragment is only allowed to listen to the LiveData
+    // object for the actual changes that occur, due to the Single Source of Truth model
+    // the app is built around. However, delete buttons send "hints" to FirstFragment
+    // when clicked, in the form of change-of-state (listAction and actionIndex), so that
+    // it can quickly ascertain (when the cart contents change) which item was deleted
+    // (so that it can provide the correct index to RecyclerView#notifyItemRemoved)
+    // without having to employ a diff algorithm.
 
     private static final String TAG = "FirstFragmentMessages";
+    // Tag for console logging
 
     private FragmentFirstBinding binding;
 
@@ -44,12 +53,16 @@ public class FirstFragment extends Fragment {
     private TextView priceSumView;
     private BookAdapter bookAdapter;
 
-    //private Resources res;
     private RRViewModel rrvm;
     private LiveData<ArrayList<UIBook>> cartData;
+    // The LiveData object we set up an observer for, to listen for
+    // changes to the cart data as they occur, originating from
+    // RRViewModel, which acts as this app's Single Source of Truth.
 
     private ListAction listAction; // holds the type of a pending list action
     private int actionIndex; // holds the index of a pending list action
+    // currently this is only ever deletion, but could expand to other things in the future,
+    // like reordering.
     private int currentCartLength;
 
     @Override
@@ -70,20 +83,23 @@ public class FirstFragment extends Fragment {
         listAction = ListAction.NONE;
 
         rrvm.navigatedToFragment(FragmentLabel.SHOPPING_CART);
+        // Alert the ViewModel that we've arrived at the Cart screen.
 
         cartData = rrvm.getCart();
         currentCartLength = cartData.getValue().size();
 
+        // Set up behavior that occurs whenever the cart data changes (item deleted or scanned).
         cartData.observe(getViewLifecycleOwner(), cart -> {
-            Log.i(TAG, cart.toString());
             if (listAction == ListAction.REMOVE_BOOK) {
                 remove_book(actionIndex);
                 listAction = ListAction.NONE;
-            } else if (cart.size() == currentCartLength + 1) {
+            } else if (cart.size() == currentCartLength + 1) { // Compare to last known cart size.
                 book_added(currentCartLength);
             } else {
                 bookAdapter.notifyDataSetChanged();
                 updateSummary();
+                // Probably this case shouldn't fire, but I didn't want to have to think too hard
+                // about UI edge-cases.
             }
             currentCartLength = cart.size();
         });
@@ -91,11 +107,9 @@ public class FirstFragment extends Fragment {
         numInCartView = view.findViewById(R.id.textview_number_in_cart);
         priceSumView = view.findViewById(R.id.textview_price_sum);
         recyclerView = view.findViewById(R.id.recycler_view_cart);
-        //finishedCartButton = findViewById(R.id.finished_button);
 
         bookAdapter = new BookAdapter(cartData);
         recyclerView.setAdapter(bookAdapter);
-        //res = view.getResources();
 
         binding.finishedButton.setOnClickListener(
                 view1 -> {

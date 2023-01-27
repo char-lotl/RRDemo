@@ -40,6 +40,8 @@ public class SecondFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         rrvm = new ViewModelProvider(requireActivity()).get(RRViewModel.class);
+        rrvm.navigatedToFragment(FragmentLabel.DEMO_COMPLETE);
+
         name = view.findViewById(R.id.editTextPersonName);
         email = view.findViewById(R.id.editTextEmail);
         phone = view.findViewById(R.id.editTextPhone);
@@ -52,7 +54,6 @@ public class SecondFragment extends Fragment {
             );
             rrvm.storeCustomerSession(c, this.requireContext());
             rrvm.resetStudentCarts();
-            rrvm.navigatedToFragment(FragmentLabel.CLASSROOM);
             NavHostFragment.findNavController(SecondFragment.this)
                     .navigate(R.id.action_SecondFragment_to_ZerothFragment);
         });

@@ -97,6 +97,8 @@ public class RRViewModel extends ViewModel {
         // in the current classroom!
     }
 
+    // Notify the ViewModel that we've arrived at the cart fragment. Knowing the current
+    // fragment is important to handling incoming barcodes correctly.
     public void navigatedToFragment(FragmentLabel fl) {
         if (currentScreen == FragmentLabel.SHOPPING_CART) {
             saveCartToStudent(currentStudent);
