@@ -1,12 +1,9 @@
 package com.example.myfirstapp.component;
 
-import android.content.res.Resources;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -18,15 +15,14 @@ import androidx.navigation.fragment.NavHostFragment;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.myfirstapp.R;
+import com.example.myfirstapp.adapter.BookAdapter;
 import com.example.myfirstapp.communication.FragmentLabel;
 import com.example.myfirstapp.databinding.FragmentFirstBinding;
-import com.example.myfirstapp.model.Book;
 import com.example.myfirstapp.model.RRViewModel;
 import com.example.myfirstapp.model.UIBook;
 import com.example.myfirstapp.text.Money;
 
 import java.util.ArrayList;
-import java.util.function.Consumer;
 
 public class FirstFragment extends Fragment {
 
@@ -42,9 +38,6 @@ public class FirstFragment extends Fragment {
     // it can quickly ascertain (when the cart contents change) which item was deleted
     // (so that it can provide the correct index to RecyclerView#notifyItemRemoved)
     // without having to employ a diff algorithm.
-
-    private static final String TAG = "FirstFragmentMessages";
-    // Tag for console logging
 
     private FragmentFirstBinding binding;
 
@@ -108,14 +101,12 @@ public class FirstFragment extends Fragment {
         priceSumView = view.findViewById(R.id.textview_price_sum);
         recyclerView = view.findViewById(R.id.recycler_view_cart);
 
-        bookAdapter = new BookAdapter(cartData);
+        bookAdapter = new BookAdapter(cartData, this::give_removal_hint);
         recyclerView.setAdapter(bookAdapter);
 
-        binding.finishedButton.setOnClickListener(
-                view1 -> {
-                    NavHostFragment.findNavController(FirstFragment.this)
-                            .navigate(R.id.action_FirstFragment_to_ZerothFragment);
-                }
+        binding.finishedButton.setOnClickListener(view1 ->
+                NavHostFragment.findNavController(FirstFragment.this)
+                        .navigate(R.id.action_FirstFragment_to_ZerothFragment)
         );
     }
 
@@ -135,72 +126,14 @@ public class FirstFragment extends Fragment {
         updateSummary();
     }
 
-    private void updateSummary() {
-        numInCartView.setText(String.valueOf(cartData.getValue().size()));
-        priceSumView.setText(Money.decimalize(UIBook.sum_prices(cartData.getValue())));
+    private void give_removal_hint(int index) {
+        listAction = ListAction.REMOVE_BOOK;
+        actionIndex = index;
     }
 
-    public class BookAdapter extends RecyclerView.Adapter<BookAdapter.BookViewHolder> {
-
-        private final LiveData<ArrayList<UIBook>> bookList;
-
-        public BookAdapter(LiveData<ArrayList<UIBook>> bl) {
-            super();
-            bookList = bl;
-        }
-
-        @NonNull
-        @Override
-        public BookViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-            View adapterLayout = LayoutInflater.from(parent.getContext())
-                    .inflate(R.layout.list_item, parent, false);
-            return new BookViewHolder(adapterLayout);
-        }
-
-        @Override
-        public void onBindViewHolder(@NonNull BookViewHolder holder, int position) {
-            UIBook uiBook = bookList.getValue().get(position);
-            Consumer<Integer> removeAction = uiBook.removeAction;
-            Book book = bookList.getValue().get(position).book;
-            holder.titleView.setText(book.title);
-            String price_string = Money.decimalize(book.price);
-            holder.priceView.setText(price_string);
-            holder.lexileView.setText(book.lexile);
-            holder.levelView.setText(book.level);
-            holder.draView.setText(book.dra);
-            holder.removeButton.setOnClickListener(view -> {
-                int index = holder.getAdapterPosition();
-                Log.i("ButtonMessages", "Removed item " + index + ".");
-                FirstFragment.this.listAction = ListAction.REMOVE_BOOK;
-                FirstFragment.this.actionIndex = index;
-                removeAction.accept(index);
-            });
-        }
-
-        @Override
-        public int getItemCount() {
-            return bookList.getValue().size();
-        }
-
-        class BookViewHolder extends RecyclerView.ViewHolder {
-            //private View view;
-            public TextView titleView;
-            public TextView priceView;
-            public Button removeButton;
-            public TextView lexileView;
-            public TextView levelView;
-            public TextView draView;
-            BookViewHolder(View view) {
-                super(view);
-                titleView = view.findViewById(R.id.item_title);
-                priceView = view.findViewById(R.id.item_price);
-                removeButton = view.findViewById(R.id.remove_button);
-                lexileView = view.findViewById(R.id.lexile_score);
-                levelView = view.findViewById(R.id.level_score);
-                draView = view.findViewById(R.id.dra_score);
-            }
-        }
-
+    private void updateSummary() { // Updates the text displayed in the cart summary bar.
+        numInCartView.setText(String.valueOf(cartData.getValue().size()));
+        priceSumView.setText(Money.decimalize(UIBook.sum_prices(cartData.getValue())));
     }
 
 }
