@@ -16,6 +16,8 @@ public class StudentDatasource {
         String[] student_ids = res.getStringArray(R.array.student_id);
         for (String sid : student_ids) {
             allStudents.put(sid, new Student(sid));
+            // Currently students are *only* their student IDs, but in the future there may be
+            // more to them.
         }
     }
 

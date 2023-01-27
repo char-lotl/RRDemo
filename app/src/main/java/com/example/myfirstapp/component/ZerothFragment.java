@@ -55,8 +55,12 @@ public class ZerothFragment extends Fragment {
         rrvm = new ViewModelProvider(requireActivity()).get(RRViewModel.class);
 
         rrvm.navigatedToFragment(FragmentLabel.CLASSROOM);
+        // Let the ViewModel know we've arrived at the classroom fragment.
 
         allStudents = rrvm.getClassroom(requireActivity());
+        // It's important that we're pulling the student data through the ViewModel as our
+        // Single Source of Truth, rather than acquiring it here, ourselves, in ZerothFragment.
+
         recyclerView = view.findViewById(R.id.recycler_view_classroom);
         totalView = view.findViewById(R.id.textview_classroom_cart_total);
         studentAdapter = new StudentAdapter(allStudents);
@@ -101,17 +105,21 @@ public class ZerothFragment extends Fragment {
             Student student = uiStudent.student;
             holder.cartButton.setText(String.format(res.getString(R.string.student_button_label), student.studentID));
             CartStatusCode cartStatus = rrvm.getCartStatus(student.studentID);
-            int tintColor = R.color.bedford_purple;
-            if (cartStatus == CartStatusCode.PARTIAL) {
+            int tintColor = R.color.bedford_purple; // Default empty cart button color.
+            if (cartStatus == CartStatusCode.PARTIAL) { // Color-coding buttons by cart status.
                 tintColor = R.color.bedford_orange;
             } else if (cartStatus == CartStatusCode.FULL) {
                 tintColor = R.color.bedford_teal;
             }
-            holder.cartButton.setBackgroundTintList(ContextCompat.getColorStateList(holder.cartButton.getContext(), tintColor));
+            holder.cartButton.setBackgroundTintList(
+                    ContextCompat.getColorStateList(holder.cartButton.getContext(), tintColor)
+            );
             holder.cartButton.setOnClickListener(view -> {
-                rrvm.clickedStudent(student.studentID);
+                rrvm.clickedStudent(student.studentID); // The only reason this is an inner class.
+                // TODO: Truthfully this is a bit sloppy, and I can refactor it to not be inner.
                 NavHostFragment.findNavController(ZerothFragment.this)
                         .navigate(R.id.action_ZerothFragment_to_FirstFragment);
+                // ZerothFragment.this can be handled by passing a fragment reference to the adapter.
             });
         }
 

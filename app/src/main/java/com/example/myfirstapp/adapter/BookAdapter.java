@@ -29,7 +29,8 @@ public class BookAdapter extends RecyclerView.Adapter<BookAdapter.BookViewHolder
         super();
         bookList = bl;
         removalHint = rh;
-    }
+    } // TODO: Refactor ViewModel's method reference to also be passed here, perhaps.
+      // Individual books don't need their own method reference, since they do the same thing.
 
     @NonNull
     @Override

@@ -46,7 +46,7 @@ public class SecondFragment extends Fragment {
         email = view.findViewById(R.id.editTextEmail);
         phone = view.findViewById(R.id.editTextPhone);
 
-        binding.buttonSecond.setOnClickListener(v -> {
+        binding.buttonSecond.setOnClickListener(v -> { // TODO: button should be called something else
             Customer c = new Customer(
                     name.getText().toString(),
                     email.getText().toString(),

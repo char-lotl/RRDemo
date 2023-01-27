@@ -89,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
                 || super.onSupportNavigateUp();
     }
 
+    // Overriding to intercept keystrokes, which includes barcode scanner inputs.
     private String barcode = "";
     @Override
     public boolean dispatchKeyEvent(KeyEvent e) {
@@ -101,11 +102,17 @@ public class MainActivity extends AppCompatActivity {
             if (e.getAction() == KeyEvent.ACTION_DOWN
                     && e.getKeyCode() == KeyEvent.KEYCODE_ENTER) {
                 handleUIEvent(rrvm.receivedBarcode(barcode, this), barcode);
+                // All barcodes are passed to the ViewModel, but the method handling this also
+                // returns a status code that lets the Activity know if it needs to display a
+                // Snackbar with an informative message for the user.
                 barcode = "";
             }
             return false;
         } else {
             return super.dispatchKeyEvent(e);
+            // Behaves normally on the demo complete screen.
+            // Need to be able to type in information in the form on that screen, so intercepting
+            // keystrokes is a no-go there.
         }
     }
 

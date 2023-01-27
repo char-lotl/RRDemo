@@ -24,13 +24,15 @@ public class BookDatasource {
         int num_titles = book_isbns.length;
         for (int i = 0; i < num_titles; i++) {
             allBooks.put(book_isbns[i], new Book(book_isbns[i], book_titles[i], book_prices[i], book_lexiles[i], book_levels[i], book_dras[i]));
+            // The ISBN won't be displayed, but it needs to be part of the book data object so that
+            // when we're saving carts, we can save books by their ISBN alone.
         }
     }
 
     public static HashMap<String, Book> getAllBooks(Context c) {
         if (allBooks == null) {
             loadBooks(c);
-        }
+        } // Caching: only needs to be loaded once.
         return allBooks;
     }
 
